@@ -2,26 +2,14 @@ const express = require("express");
 
 const {
   adminLogin,
+  registerAdmin,
 } = require("../controllers/authController");
 
 const router = express.Router();
 
-// ==========================================
-// ADMIN LOGIN
-// Public route
-// ==========================================
+// TEMPORARY - admin create karne ke baad remove karna hai
+router.post("/register", registerAdmin);
 
-router.post(
-  "/login",
-  adminLogin
-);
-
-// ==========================================
-// ADMIN REGISTRATION DISABLED
-// Admin already created in database.
-// Never expose public admin registration.
-// ==========================================
-
-// router.post("/register", registerAdmin);
+router.post("/login", adminLogin);
 
 module.exports = router;
