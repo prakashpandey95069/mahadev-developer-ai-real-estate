@@ -1,0 +1,1201 @@
+property_id,location,property_type,area_sqft,road_width_ft,distance_from_city_center_km,property_age_years,price_inr
+GKP0001,Medical College Road,House,3254,40,15.6,13,11220000
+GKP0002,Gida,Commercial Property,4886,40,3.7,18,16460000
+GKP0003,Gida,Agricultural Land,13011,40,18.3,0,9490000
+GKP0004,Betiahata,Residential Plot,1005,20,2.3,0,4430000
+GKP0005,Khorabar,Commercial Property,3269,18,21.4,18,9820000
+GKP0006,Mohaddipur,Residential Plot,4025,18,1.9,0,14140000
+GKP0007,Gida,House,3745,18,7.8,23,7830000
+GKP0008,Transport Nagar,House,3326,20,11.0,5,9850000
+GKP0009,Medical College Road,House,3803,12,15.7,13,11550000
+GKP0010,Chargawan,Commercial Property,2345,40,7.1,20,7540000
+GKP0011,Kunraghat,Residential Plot,4264,12,1.2,0,11280000
+GKP0012,Padri Bazar,Commercial Property,3425,40,10.6,7,14290000
+GKP0013,Taramandal,Residential Plot,1215,18,10.9,0,3690000
+GKP0014,Mohaddipur,Commercial Property,3001,25,12.7,16,16550000
+GKP0015,Golghar,Residential Plot,2129,18,5.5,0,10600000
+GKP0016,Transport Nagar,Residential Plot,4355,40,6.9,0,11260000
+GKP0017,Taramandal,House,1116,20,15.0,17,4000000
+GKP0018,Padri Bazar,Commercial Property,1810,18,2.9,4,7310000
+GKP0019,Taramandal,House,3067,60,4.2,4,18960000
+GKP0020,Gida,House,1248,15,14.2,11,2690000
+GKP0021,Khorabar,Residential Plot,2107,12,21.2,0,4030000
+GKP0022,Gida,Residential Plot,3679,30,17.4,0,7090000
+GKP0023,Transport Nagar,House,3132,10,20.0,8,8480000
+GKP0024,Medical College Road,Residential Plot,3775,15,13.2,0,8720000
+GKP0025,Sahjanwa,Commercial Property,4326,30,10.1,12,11200000
+GKP0026,Rapti Nagar,House,2628,10,9.7,19,7960000
+GKP0027,Rapti Nagar,Residential Plot,2774,25,3.2,0,8940000
+GKP0028,Rapti Nagar,Residential Plot,1920,60,13.2,0,6750000
+GKP0029,Betiahata,Residential Plot,3200,12,11.1,0,12450000
+GKP0030,Transport Nagar,Residential Plot,1814,20,11.3,0,4550000
+GKP0031,Rapti Nagar,House,2587,15,8.0,25,8470000
+GKP0032,Chargawan,Residential Plot,2531,18,19.8,0,3590000
+GKP0033,Chargawan,House,1742,25,6.9,3,4700000
+GKP0034,Mohaddipur,Commercial Property,4713,15,20.2,19,21440000
+GKP0035,Medical College Road,Residential Plot,1221,20,8.8,0,3570000
+GKP0036,Sahjanwa,Residential Plot,4157,12,7.1,0,5900000
+GKP0037,Transport Nagar,Residential Plot,4963,60,4.5,0,13910000
+GKP0038,Khorabar,Agricultural Land,14748,12,16.7,0,11150000
+GKP0039,Naushad,Agricultural Land,6131,20,7.6,0,4120000
+GKP0040,Kunraghat,Residential Plot,3511,40,16.7,0,8610000
+GKP0041,Medical College Road,Agricultural Land,28589,15,3.6,0,31890000
+GKP0042,Naushad,Residential Plot,1274,18,19.4,0,1740000
+GKP0043,Golghar,Residential Plot,4992,30,21.4,0,24100000
+GKP0044,Sahjanwa,Residential Plot,1233,12,3.8,0,1870000
+GKP0045,Rustampur,Residential Plot,1905,20,15.6,0,4600000
+GKP0046,Sahjanwa,Commercial Property,1239,30,16.5,0,2960000
+GKP0047,Sahjanwa,Agricultural Land,6341,10,7.3,0,3390000
+GKP0048,Kunraghat,House,1735,20,20.4,29,3720000
+GKP0049,Khorabar,House,1189,40,3.9,19,3500000
+GKP0050,Medical College Road,Agricultural Land,7481,25,20.6,0,7700000
+GKP0051,Sahjanwa,Commercial Property,2497,10,3.3,22,5840000
+GKP0052,Rustampur,Residential Plot,4106,18,13.7,0,10590000
+GKP0053,Gida,House,1656,12,9.9,12,3940000
+GKP0054,Kunraghat,Commercial Property,1588,20,6.0,11,6830000
+GKP0055,Rustampur,Commercial Property,4808,40,13.5,2,21690000
+GKP0056,Taramandal,Commercial Property,1798,60,20.3,8,10160000
+GKP0057,Rapti Nagar,Residential Plot,3141,12,3.4,0,8110000
+GKP0058,Mohaddipur,Residential Plot,843,40,13.4,0,3580000
+GKP0059,Taramandal,Residential Plot,4244,15,11.6,0,13430000
+GKP0060,Padri Bazar,Residential Plot,4345,20,6.0,0,8890000
+GKP0061,Rapti Nagar,House,3832,15,8.8,12,14090000
+GKP0062,Taramandal,Residential Plot,1010,40,2.1,0,4200000
+GKP0063,Mohaddipur,Commercial Property,765,60,21.6,20,5300000
+GKP0064,Golghar,House,3273,40,3.8,19,24560000
+GKP0065,Khorabar,Commercial Property,2717,20,9.1,21,8520000
+GKP0066,Rustampur,Residential Plot,1772,18,9.8,0,4070000
+GKP0067,Gida,Residential Plot,2822,18,7.9,0,4990000
+GKP0068,Rapti Nagar,Residential Plot,3617,40,20.2,0,10870000
+GKP0069,Transport Nagar,Residential Plot,2626,20,18.8,0,5770000
+GKP0070,Rustampur,House,3355,25,7.1,23,11110000
+GKP0071,Taramandal,House,1368,40,3.8,15,6680000
+GKP0072,Betiahata,Commercial Property,747,10,20.7,15,3610000
+GKP0073,Transport Nagar,Commercial Property,4807,25,17.4,10,19020000
+GKP0074,Naushad,Residential Plot,4763,30,3.0,0,9100000
+GKP0075,Golghar,Residential Plot,1169,25,13.0,0,5830000
+GKP0076,Mohaddipur,Commercial Property,2756,40,11.3,23,17190000
+GKP0077,Rapti Nagar,Residential Plot,4698,40,2.8,0,17160000
+GKP0078,Medical College Road,Residential Plot,4656,30,15.1,0,12320000
+GKP0079,Padri Bazar,Commercial Property,4523,15,8.6,16,13900000
+GKP0080,Khorabar,Residential Plot,1293,10,10.2,0,2420000
+GKP0081,Transport Nagar,Commercial Property,1127,60,17.4,14,5040000
+GKP0082,Transport Nagar,Residential Plot,3469,60,16.1,0,10930000
+GKP0083,Sahjanwa,Commercial Property,856,25,3.6,22,2040000
+GKP0084,Taramandal,Residential Plot,3619,10,18.3,0,9400000
+GKP0085,Sahjanwa,House,1741,10,20.3,13,3030000
+GKP0086,Khorabar,Residential Plot,2320,60,19.5,0,5300000
+GKP0087,Padri Bazar,Residential Plot,4283,25,15.0,0,9280000
+GKP0088,Transport Nagar,Residential Plot,3595,60,1.6,0,10860000
+GKP0089,Sahjanwa,Commercial Property,972,12,20.1,21,1900000
+GKP0090,Naushad,Residential Plot,759,12,13.7,0,1230000
+GKP0091,Taramandal,Residential Plot,1866,40,2.2,0,7550000
+GKP0092,Transport Nagar,Commercial Property,4661,30,18.6,21,14210000
+GKP0093,Sahjanwa,Residential Plot,1488,30,16.6,0,2240000
+GKP0094,Gida,Commercial Property,2409,40,5.1,4,8670000
+GKP0095,Padri Bazar,Commercial Property,2756,30,2.1,25,9880000
+GKP0096,Betiahata,Residential Plot,1564,40,15.9,0,6040000
+GKP0097,Kunraghat,Residential Plot,1003,18,10.6,0,2510000
+GKP0098,Transport Nagar,House,3580,20,20.9,17,8880000
+GKP0099,Rapti Nagar,House,2474,15,20.8,21,6830000
+GKP0100,Betiahata,House,2980,60,3.5,12,18840000
+GKP0101,Gida,Residential Plot,1011,15,10.0,0,1810000
+GKP0102,Sahjanwa,Residential Plot,3393,12,5.6,0,4960000
+GKP0103,Sahjanwa,Residential Plot,4650,10,9.8,0,6390000
+GKP0104,Rapti Nagar,House,1444,25,15.7,10,5650000
+GKP0105,Golghar,Residential Plot,3471,15,12.5,0,15980000
+GKP0106,Padri Bazar,House,2437,60,16.5,11,9150000
+GKP0107,Gida,Agricultural Land,25956,20,11.9,0,18900000
+GKP0108,Rustampur,Commercial Property,1778,20,3.4,9,7010000
+GKP0109,Naushad,Residential Plot,4305,10,8.0,0,6310000
+GKP0110,Khorabar,Residential Plot,892,30,1.3,0,2240000
+GKP0111,Mohaddipur,Residential Plot,4369,30,13.6,0,15060000
+GKP0112,Rapti Nagar,Residential Plot,2808,60,21.9,0,10070000
+GKP0113,Sahjanwa,House,1726,30,9.1,4,3900000
+GKP0114,Kunraghat,Residential Plot,647,30,4.4,0,1610000
+GKP0115,Gida,Commercial Property,4626,60,18.6,25,16380000
+GKP0116,Golghar,Residential Plot,2813,20,9.2,0,12670000
+GKP0117,Chargawan,House,3193,20,4.2,14,6870000
+GKP0118,Rustampur,Residential Plot,4592,25,7.1,0,12130000
+GKP0119,Rustampur,House,3087,10,6.1,15,10540000
+GKP0120,Medical College Road,House,2535,18,17.0,20,6840000
+GKP0121,Mohaddipur,Residential Plot,3872,20,8.1,0,15490000
+GKP0122,Khorabar,Commercial Property,2568,40,11.6,17,10030000
+GKP0123,Khorabar,Commercial Property,3060,18,11.5,9,10060000
+GKP0124,Gida,Residential Plot,1062,60,14.2,0,2240000
+GKP0125,Naushad,Residential Plot,1992,12,1.5,0,3690000
+GKP0126,Mohaddipur,Residential Plot,2572,12,1.2,0,9160000
+GKP0127,Golghar,Commercial Property,2771,30,14.0,16,22370000
+GKP0128,Transport Nagar,Commercial Property,3359,20,21.2,23,10920000
+GKP0129,Mohaddipur,Commercial Property,648,20,10.2,2,4220000
+GKP0130,Mohaddipur,House,2076,10,7.1,30,8660000
+GKP0131,Transport Nagar,Commercial Property,3294,10,1.9,9,13870000
+GKP0132,Medical College Road,House,3588,40,21.5,30,10770000
+GKP0133,Sahjanwa,Commercial Property,3354,12,17.8,2,8420000
+GKP0134,Golghar,Commercial Property,1420,10,2.0,0,11850000
+GKP0135,Kunraghat,House,3217,25,19.2,22,9290000
+GKP0136,Padri Bazar,Commercial Property,2094,60,14.1,1,10780000
+GKP0137,Rustampur,Residential Plot,4788,20,15.2,0,10090000
+GKP0138,Padri Bazar,Agricultural Land,13837,25,6.0,0,12900000
+GKP0139,Mohaddipur,Residential Plot,4031,40,7.3,0,17680000
+GKP0140,Sahjanwa,Residential Plot,2346,20,4.9,0,3170000
+GKP0141,Naushad,Residential Plot,2579,30,18.0,0,4710000
+GKP0142,Betiahata,Residential Plot,1904,20,13.1,0,7940000
+GKP0143,Rapti Nagar,Commercial Property,3753,10,20.2,15,14940000
+GKP0144,Kunraghat,Residential Plot,1053,18,2.4,0,2450000
+GKP0145,Golghar,House,758,25,8.2,29,4340000
+GKP0146,Naushad,Commercial Property,4809,20,7.0,13,14180000
+GKP0147,Kunraghat,Residential Plot,1634,60,12.1,0,5310000
+GKP0148,Naushad,House,2746,10,6.1,20,5180000
+GKP0149,Khorabar,Residential Plot,2127,40,6.9,0,5140000
+GKP0150,Rustampur,Commercial Property,4023,18,11.0,16,17150000
+GKP0151,Golghar,Commercial Property,3471,60,17.5,17,30350000
+GKP0152,Rapti Nagar,Residential Plot,3074,18,21.1,0,7870000
+GKP0153,Betiahata,House,1161,60,3.2,1,7880000
+GKP0154,Transport Nagar,Residential Plot,3117,10,10.6,0,6870000
+GKP0155,Padri Bazar,Residential Plot,1975,40,9.1,0,4320000
+GKP0156,Medical College Road,House,2183,60,9.3,6,10410000
+GKP0157,Khorabar,Residential Plot,1876,12,19.1,0,2940000
+GKP0158,Medical College Road,House,2377,15,10.1,0,9470000
+GKP0159,Gida,Residential Plot,4302,15,6.1,0,7740000
+GKP0160,Khorabar,House,1800,30,20.5,7,4320000
+GKP0161,Khorabar,House,3551,12,2.0,22,8010000
+GKP0162,Rapti Nagar,Agricultural Land,5425,10,5.0,0,5270000
+GKP0163,Rapti Nagar,House,1065,15,13.0,14,3770000
+GKP0164,Mohaddipur,Residential Plot,4338,15,14.0,0,13450000
+GKP0165,Chargawan,Commercial Property,4978,15,20.3,22,11010000
+GKP0166,Rustampur,House,3702,10,18.1,30,8680000
+GKP0167,Kunraghat,Commercial Property,831,15,9.7,15,2900000
+GKP0168,Rustampur,Residential Plot,4393,10,8.3,0,9430000
+GKP0169,Mohaddipur,Commercial Property,1077,30,16.5,21,5700000
+GKP0170,Medical College Road,House,3637,12,4.0,7,14120000
+GKP0171,Taramandal,House,1270,60,1.1,3,6850000
+GKP0172,Golghar,House,3978,12,19.8,12,24900000
+GKP0173,Sahjanwa,House,2469,15,2.1,5,5180000
+GKP0174,Medical College Road,House,1672,40,1.4,30,6260000
+GKP0175,Rapti Nagar,Agricultural Land,9244,40,13.8,0,11390000
+GKP0176,Rustampur,Residential Plot,3908,30,16.2,0,10060000
+GKP0177,Khorabar,Agricultural Land,23478,12,11.8,0,14980000
+GKP0178,Sahjanwa,Commercial Property,1984,18,3.0,13,5250000
+GKP0179,Sahjanwa,Residential Plot,1304,30,4.1,0,2350000
+GKP0180,Rustampur,Residential Plot,1385,60,20.2,0,3820000
+GKP0181,Chargawan,House,3604,25,9.0,22,7800000
+GKP0182,Naushad,Commercial Property,3368,20,13.0,19,7370000
+GKP0183,Padri Bazar,Agricultural Land,21886,40,17.8,0,17020000
+GKP0184,Taramandal,Commercial Property,1260,10,21.6,11,5310000
+GKP0185,Chargawan,Agricultural Land,22422,25,7.7,0,15950000
+GKP0186,Kunraghat,House,1969,10,20.6,12,5350000
+GKP0187,Betiahata,Residential Plot,2087,18,9.3,0,7210000
+GKP0188,Khorabar,House,1237,18,21.1,1,2980000
+GKP0189,Rapti Nagar,Commercial Property,765,40,6.8,15,3830000
+GKP0190,Transport Nagar,House,1313,20,6.4,1,3980000
+GKP0191,Taramandal,Agricultural Land,16000,15,11.4,0,16030000
+GKP0192,Betiahata,Residential Plot,1195,15,17.1,0,4500000
+GKP0193,Padri Bazar,Agricultural Land,27345,25,21.0,0,18430000
+GKP0194,Transport Nagar,Residential Plot,4742,15,12.6,0,9240000
+GKP0195,Chargawan,House,3491,20,4.5,12,7770000
+GKP0196,Sahjanwa,Commercial Property,1053,25,16.4,9,2350000
+GKP0197,Chargawan,Residential Plot,2233,10,17.2,0,3220000
+GKP0198,Padri Bazar,Agricultural Land,14029,12,19.8,0,8920000
+GKP0199,Kunraghat,Commercial Property,1543,12,9.7,16,5520000
+GKP0200,Rapti Nagar,Commercial Property,1452,40,19.4,3,7460000
+GKP0201,Golghar,Residential Plot,2936,15,4.4,0,16290000
+GKP0202,Rustampur,Agricultural Land,3083,30,11.9,0,3080000
+GKP0203,Sahjanwa,House,2448,18,3.8,25,3850000
+GKP0204,Rapti Nagar,House,3843,60,4.4,25,17780000
+GKP0205,Transport Nagar,Residential Plot,1514,40,3.5,0,4660000
+GKP0206,Taramandal,Residential Plot,4628,25,10.8,0,14260000
+GKP0207,Gida,Residential Plot,2940,40,18.2,0,6060000
+GKP0208,Transport Nagar,House,3470,40,8.2,4,11690000
+GKP0209,Naushad,Residential Plot,851,40,14.1,0,1630000
+GKP0210,Betiahata,Residential Plot,4092,12,10.2,0,15530000
+GKP0211,Naushad,Residential Plot,3032,60,6.9,0,5930000
+GKP0212,Kunraghat,Residential Plot,2616,18,14.3,0,5780000
+GKP0213,Rapti Nagar,Agricultural Land,20487,15,16.2,0,20140000
+GKP0214,Khorabar,House,2878,20,21.0,2,7180000
+GKP0215,Golghar,House,1285,40,1.8,30,8600000
+GKP0216,Khorabar,Commercial Property,4495,60,12.2,7,20440000
+GKP0217,Rapti Nagar,Agricultural Land,11167,30,16.5,0,12090000
+GKP0218,Kunraghat,House,1193,25,20.0,22,3170000
+GKP0219,Gida,House,2029,30,10.2,10,4810000
+GKP0220,Sahjanwa,Residential Plot,2029,30,14.8,0,3120000
+GKP0221,Khorabar,Residential Plot,686,40,17.3,0,1620000
+GKP0222,Rapti Nagar,Residential Plot,4619,30,3.7,0,14250000
+GKP0223,Padri Bazar,Residential Plot,1210,15,20.1,0,2070000
+GKP0224,Mohaddipur,House,2502,30,13.8,21,10760000
+GKP0225,Transport Nagar,House,911,30,9.4,9,3180000
+GKP0226,Transport Nagar,Residential Plot,2973,18,19.4,0,6340000
+GKP0227,Kunraghat,Agricultural Land,14986,40,7.8,0,16190000
+GKP0228,Chargawan,House,2161,40,6.1,19,6000000
+GKP0229,Kunraghat,Agricultural Land,11533,40,21.5,0,11530000
+GKP0230,Transport Nagar,Commercial Property,3894,20,10.6,2,14770000
+GKP0231,Betiahata,Residential Plot,3437,15,13.3,0,12020000
+GKP0232,Rustampur,Residential Plot,3493,40,19.1,0,8500000
+GKP0233,Kunraghat,Residential Plot,633,20,18.6,0,1280000
+GKP0234,Padri Bazar,Commercial Property,3143,12,22.0,3,9270000
+GKP0235,Kunraghat,Residential Plot,716,18,14.0,0,1800000
+GKP0236,Khorabar,Residential Plot,4916,60,17.6,0,11400000
+GKP0237,Rapti Nagar,Agricultural Land,9037,25,3.3,0,11700000
+GKP0238,Golghar,House,1282,20,11.5,15,8390000
+GKP0239,Padri Bazar,Agricultural Land,20623,10,11.8,0,14100000
+GKP0240,Transport Nagar,Commercial Property,855,15,10.7,25,2650000
+GKP0241,Khorabar,Residential Plot,2222,30,8.4,0,5210000
+GKP0242,Mohaddipur,Commercial Property,4211,18,7.8,24,23680000
+GKP0243,Mohaddipur,House,3345,60,4.0,6,25200000
+GKP0244,Naushad,Residential Plot,1022,15,2.4,0,1520000
+GKP0245,Golghar,Residential Plot,982,18,17.3,0,4000000
+GKP0246,Kunraghat,Commercial Property,3366,12,4.1,8,14900000
+GKP0247,Khorabar,House,3417,40,2.9,14,10560000
+GKP0248,Golghar,Residential Plot,3847,15,11.6,0,19240000
+GKP0249,Padri Bazar,House,1720,18,5.4,11,5200000
+GKP0250,Rustampur,Residential Plot,3943,10,4.7,0,9100000
+GKP0251,Taramandal,Residential Plot,4222,30,3.9,0,15200000
+GKP0252,Transport Nagar,House,3729,12,21.5,12,10580000
+GKP0253,Naushad,Residential Plot,3316,12,14.8,0,4720000
+GKP0254,Rustampur,House,3125,20,18.4,23,8960000
+GKP0255,Sahjanwa,Residential Plot,716,60,11.2,0,1250000
+GKP0256,Betiahata,Residential Plot,1737,30,18.4,0,6730000
+GKP0257,Rapti Nagar,Residential Plot,2296,12,7.6,0,6570000
+GKP0258,Gida,House,3486,18,5.5,2,10130000
+GKP0259,Taramandal,House,3268,40,10.9,5,15850000
+GKP0260,Naushad,Agricultural Land,15816,10,5.5,0,9970000
+GKP0261,Sahjanwa,House,1345,12,3.1,0,2650000
+GKP0262,Medical College Road,Residential Plot,2460,10,19.1,0,5580000
+GKP0263,Rapti Nagar,Residential Plot,1675,10,8.5,0,4420000
+GKP0264,Naushad,Residential Plot,3286,40,20.5,0,5070000
+GKP0265,Naushad,Residential Plot,823,12,14.0,0,1130000
+GKP0266,Rapti Nagar,Commercial Property,4307,40,12.0,2,27790000
+GKP0267,Sahjanwa,Residential Plot,794,10,20.9,0,1010000
+GKP0268,Khorabar,Commercial Property,4648,40,11.5,4,18500000
+GKP0269,Transport Nagar,Agricultural Land,28826,18,9.3,0,25420000
+GKP0270,Gida,Residential Plot,1163,12,3.2,0,2340000
+GKP0271,Rapti Nagar,House,2606,30,10.1,11,10980000
+GKP0272,Sahjanwa,Agricultural Land,24656,60,9.2,0,16980000
+GKP0273,Khorabar,House,2188,20,14.8,11,5640000
+GKP0274,Kunraghat,Residential Plot,2011,10,3.0,0,4510000
+GKP0275,Kunraghat,Commercial Property,4852,40,12.8,10,22960000
+GKP0276,Rustampur,Residential Plot,2915,40,20.5,0,7780000
+GKP0277,Medical College Road,Residential Plot,3544,25,9.2,0,10940000
+GKP0278,Transport Nagar,House,3931,25,15.3,0,13160000
+GKP0279,Taramandal,Residential Plot,2076,30,18.9,0,6310000
+GKP0280,Rustampur,Residential Plot,2649,25,7.9,0,7600000
+GKP0281,Padri Bazar,Residential Plot,4344,25,6.7,0,8970000
+GKP0282,Sahjanwa,House,3257,20,21.3,6,6470000
+GKP0283,Padri Bazar,Residential Plot,4365,60,19.4,0,10700000
+GKP0284,Golghar,Residential Plot,2315,40,11.1,0,13370000
+GKP0285,Betiahata,House,3942,18,8.8,28,16560000
+GKP0286,Medical College Road,Commercial Property,856,40,7.0,5,4470000
+GKP0287,Mohaddipur,Residential Plot,4447,60,10.7,0,21970000
+GKP0288,Gida,Residential Plot,3357,30,8.9,0,6820000
+GKP0289,Rapti Nagar,House,832,20,5.5,29,2520000
+GKP0290,Golghar,Residential Plot,1429,12,20.9,0,6050000
+GKP0291,Medical College Road,Commercial Property,2250,15,14.7,25,8720000
+GKP0292,Medical College Road,House,1887,12,1.8,13,6820000
+GKP0293,Sahjanwa,Agricultural Land,15920,60,1.8,0,12760000
+GKP0294,Golghar,Agricultural Land,11147,18,20.7,0,20340000
+GKP0295,Taramandal,Residential Plot,1844,10,18.5,0,4610000
+GKP0296,Mohaddipur,Agricultural Land,17442,40,9.3,0,27610000
+GKP0297,Golghar,Residential Plot,1357,60,7.5,0,8350000
+GKP0298,Gida,Agricultural Land,10723,12,19.2,0,6880000
+GKP0299,Medical College Road,Commercial Property,896,25,20.8,25,2960000
+GKP0300,Chargawan,Commercial Property,1711,18,19.9,14,4720000
+GKP0301,Golghar,Commercial Property,3892,20,9.1,12,30700000
+GKP0302,Sahjanwa,Residential Plot,1102,10,2.6,0,1730000
+GKP0303,Mohaddipur,Agricultural Land,15044,40,1.7,0,23600000
+GKP0304,Betiahata,Residential Plot,1843,60,5.6,0,9610000
+GKP0305,Betiahata,Agricultural Land,28277,10,2.0,0,38780000
+GKP0306,Rustampur,Residential Plot,1253,12,12.9,0,3210000
+GKP0307,Rustampur,House,2473,12,17.8,24,6640000
+GKP0308,Betiahata,Agricultural Land,26332,12,2.9,0,36520000
+GKP0309,Kunraghat,House,2749,40,17.2,29,8000000
+GKP0310,Kunraghat,Residential Plot,3312,15,14.7,0,7610000
+GKP0311,Rapti Nagar,Residential Plot,2513,30,4.5,0,8990000
+GKP0312,Mohaddipur,Residential Plot,4218,10,11.5,0,14620000
+GKP0313,Taramandal,House,2377,60,11.2,8,12710000
+GKP0314,Naushad,Residential Plot,2456,30,5.8,0,4610000
+GKP0315,Golghar,Residential Plot,3231,60,10.8,0,22860000
+GKP0316,Khorabar,Residential Plot,2692,40,14.6,0,6400000
+GKP0317,Chargawan,House,2205,12,14.3,19,4160000
+GKP0318,Chargawan,House,3268,60,8.8,20,8900000
+GKP0319,Transport Nagar,Commercial Property,2036,10,10.7,13,6710000
+GKP0320,Padri Bazar,Commercial Property,1943,18,14.2,3,7220000
+GKP0321,Rapti Nagar,Agricultural Land,22776,15,3.3,0,28050000
+GKP0322,Chargawan,Residential Plot,1279,18,12.1,0,2320000
+GKP0323,Khorabar,Commercial Property,1096,40,8.5,18,3950000
+GKP0324,Rapti Nagar,Residential Plot,2312,15,7.5,0,5940000
+GKP0325,Mohaddipur,Commercial Property,2886,10,11.1,3,18740000
+GKP0326,Golghar,Commercial Property,3816,20,18.2,5,28570000
+GKP0327,Kunraghat,Residential Plot,2187,15,9.2,0,4750000
+GKP0328,Gida,Commercial Property,1121,12,3.7,8,3430000
+GKP0329,Khorabar,Residential Plot,4386,18,6.0,0,9550000
+GKP0330,Taramandal,House,3769,25,19.2,19,15180000
+GKP0331,Gida,Agricultural Land,19565,40,17.6,0,14430000
+GKP0332,Naushad,Residential Plot,3726,10,11.0,0,5770000
+GKP0333,Gida,House,2044,20,18.6,23,3690000
+GKP0334,Mohaddipur,Commercial Property,1358,40,21.9,1,9940000
+GKP0335,Medical College Road,Residential Plot,4516,12,6.6,0,12280000
+GKP0336,Sahjanwa,Agricultural Land,14660,18,12.7,0,7310000
+GKP0337,Rustampur,Residential Plot,1347,30,20.9,0,3190000
+GKP0338,Taramandal,Commercial Property,314,30,4.7,17,1810000
+GKP0339,Rapti Nagar,Residential Plot,4654,60,3.9,0,19180000
+GKP0340,Transport Nagar,Residential Plot,4184,60,21.3,0,10690000
+GKP0341,Khorabar,House,3954,30,17.3,13,11090000
+GKP0342,Rustampur,Residential Plot,3847,40,5.5,0,10110000
+GKP0343,Golghar,Agricultural Land,18422,40,5.4,0,41980000
+GKP0344,Taramandal,Commercial Property,3908,12,16.7,2,18600000
+GKP0345,Kunraghat,Residential Plot,1360,12,9.6,0,3120000
+GKP0346,Padri Bazar,House,3544,30,21.6,22,8450000
+GKP0347,Betiahata,Agricultural Land,13890,10,16.3,0,19480000
+GKP0348,Rustampur,Residential Plot,2422,20,5.2,0,5800000
+GKP0349,Sahjanwa,Residential Plot,2641,12,20.1,0,3570000
+GKP0350,Padri Bazar,Residential Plot,3246,15,6.3,0,6190000
+GKP0351,Taramandal,Residential Plot,4753,60,18.8,0,17150000
+GKP0352,Rustampur,Residential Plot,974,12,14.4,0,2390000
+GKP0353,Rapti Nagar,Agricultural Land,8695,25,18.8,0,8500000
+GKP0354,Chargawan,Residential Plot,4377,40,7.4,0,9150000
+GKP0355,Golghar,Residential Plot,3944,12,20.7,0,18050000
+GKP0356,Padri Bazar,House,887,12,16.6,27,2070000
+GKP0357,Gida,Commercial Property,3219,18,6.0,7,10140000
+GKP0358,Medical College Road,House,2367,40,17.5,18,9330000
+GKP0359,Kunraghat,Residential Plot,4007,30,15.2,0,9910000
+GKP0360,Padri Bazar,Commercial Property,1186,60,16.2,11,5580000
+GKP0361,Rapti Nagar,Residential Plot,4931,18,11.0,0,15430000
+GKP0362,Betiahata,Residential Plot,3229,18,19.4,0,10590000
+GKP0363,Gida,Residential Plot,4067,25,19.6,0,6700000
+GKP0364,Transport Nagar,Commercial Property,1275,15,14.8,8,4900000
+GKP0365,Betiahata,Residential Plot,2604,12,16.0,0,9220000
+GKP0366,Betiahata,Residential Plot,2781,20,19.2,0,8690000
+GKP0367,Kunraghat,Residential Plot,2432,60,2.1,0,8620000
+GKP0368,Golghar,Commercial Property,1511,30,19.6,5,11950000
+GKP0369,Golghar,Commercial Property,2797,15,5.8,20,18590000
+GKP0370,Kunraghat,Commercial Property,4805,25,16.6,2,20080000
+GKP0371,Medical College Road,House,2271,25,5.2,1,10350000
+GKP0372,Chargawan,Residential Plot,4172,60,4.0,0,11010000
+GKP0373,Golghar,Agricultural Land,21307,60,8.0,0,49340000
+GKP0374,Khorabar,Residential Plot,1532,12,2.5,0,3520000
+GKP0375,Medical College Road,Residential Plot,732,12,18.4,0,1780000
+GKP0376,Medical College Road,House,3256,40,14.4,12,12760000
+GKP0377,Transport Nagar,House,3052,18,10.8,21,7610000
+GKP0378,Sahjanwa,Residential Plot,4105,18,6.2,0,6480000
+GKP0379,Rapti Nagar,Residential Plot,4793,30,19.0,0,12270000
+GKP0380,Naushad,Residential Plot,3966,30,15.5,0,7270000
+GKP0381,Rustampur,Residential Plot,4934,25,7.1,0,13240000
+GKP0382,Khorabar,House,2752,25,3.8,4,8890000
+GKP0383,Betiahata,House,2927,10,10.4,18,13030000
+GKP0384,Sahjanwa,Residential Plot,981,15,16.6,0,1200000
+GKP0385,Sahjanwa,Commercial Property,2480,10,10.9,14,5430000
+GKP0386,Padri Bazar,House,3081,60,12.1,28,9600000
+GKP0387,Gida,Commercial Property,864,18,11.1,1,3010000
+GKP0388,Gida,House,2539,60,10.5,14,7150000
+GKP0389,Transport Nagar,Residential Plot,1233,10,1.0,0,2890000
+GKP0390,Kunraghat,Commercial Property,3916,10,13.0,18,12390000
+GKP0391,Medical College Road,Residential Plot,4741,18,7.9,0,13170000
+GKP0392,Betiahata,Residential Plot,1874,30,5.8,0,8790000
+GKP0393,Transport Nagar,Commercial Property,2651,40,22.0,12,9560000
+GKP0394,Mohaddipur,Residential Plot,1862,30,13.2,0,7930000
+GKP0395,Rustampur,Agricultural Land,5952,20,14.4,0,5880000
+GKP0396,Sahjanwa,Residential Plot,4705,18,18.5,0,5870000
+GKP0397,Gida,House,1497,20,20.0,30,2930000
+GKP0398,Transport Nagar,Residential Plot,766,15,12.5,0,1680000
+GKP0399,Rapti Nagar,House,2368,18,16.7,12,7930000
+GKP0400,Sahjanwa,Residential Plot,2055,18,18.9,0,2640000
+GKP0401,Rapti Nagar,Residential Plot,1061,30,12.6,0,2840000
+GKP0402,Transport Nagar,Residential Plot,1992,15,6.8,0,4050000
+GKP0403,Betiahata,Residential Plot,4662,25,1.5,0,21560000
+GKP0404,Medical College Road,House,1212,20,10.3,7,3980000
+GKP0405,Sahjanwa,Agricultural Land,24675,12,4.8,0,14840000
+GKP0406,Taramandal,House,2950,60,14.9,4,16730000
+GKP0407,Rustampur,House,3867,40,7.3,29,12580000
+GKP0408,Gida,Residential Plot,3858,15,2.0,0,6960000
+GKP0409,Gida,Residential Plot,3730,15,14.5,0,6430000
+GKP0410,Sahjanwa,Commercial Property,2754,12,3.2,21,5990000
+GKP0411,Mohaddipur,House,2993,12,5.7,7,14700000
+GKP0412,Taramandal,Residential Plot,966,12,18.3,0,2910000
+GKP0413,Sahjanwa,Agricultural Land,8436,20,20.4,0,4640000
+GKP0414,Taramandal,Residential Plot,4442,30,21.4,0,14480000
+GKP0415,Rustampur,House,3904,10,18.8,24,10380000
+GKP0416,Transport Nagar,Residential Plot,3305,25,4.2,0,8760000
+GKP0417,Golghar,Residential Plot,3693,30,18.8,0,18150000
+GKP0418,Mohaddipur,Residential Plot,2843,60,16.4,0,12360000
+GKP0419,Transport Nagar,Residential Plot,2259,12,10.7,0,5480000
+GKP0420,Gida,Residential Plot,3830,60,8.9,0,9970000
+GKP0421,Chargawan,Residential Plot,3195,25,20.5,0,4890000
+GKP0422,Medical College Road,Agricultural Land,21709,20,2.9,0,24450000
+GKP0423,Rapti Nagar,Residential Plot,1964,10,11.0,0,5700000
+GKP0424,Rapti Nagar,Residential Plot,1854,10,11.9,0,5450000
+GKP0425,Chargawan,House,3343,15,3.4,29,7120000
+GKP0426,Betiahata,House,1633,15,15.4,4,7170000
+GKP0427,Rapti Nagar,Residential Plot,2601,12,10.3,0,7010000
+GKP0428,Golghar,Residential Plot,2896,18,13.9,0,13290000
+GKP0429,Taramandal,House,3207,18,6.2,3,13990000
+GKP0430,Taramandal,Residential Plot,3965,40,8.9,0,14240000
+GKP0431,Rustampur,Residential Plot,3212,25,8.2,0,8270000
+GKP0432,Gida,Residential Plot,1027,40,20.8,0,1730000
+GKP0433,Transport Nagar,Commercial Property,3127,15,17.5,23,9780000
+GKP0434,Khorabar,Agricultural Land,28088,30,10.3,0,23300000
+GKP0435,Taramandal,Residential Plot,4093,18,21.7,0,9800000
+GKP0436,Medical College Road,Commercial Property,2427,15,11.1,13,11130000
+GKP0437,Khorabar,Residential Plot,2689,12,20.9,0,4440000
+GKP0438,Taramandal,House,851,20,20.5,2,3380000
+GKP0439,Sahjanwa,Agricultural Land,29297,15,11.6,0,16460000
+GKP0440,Rapti Nagar,Residential Plot,2572,18,9.2,0,7370000
+GKP0441,Chargawan,Agricultural Land,9122,12,7.3,0,5210000
+GKP0442,Sahjanwa,Residential Plot,2324,30,4.8,0,3910000
+GKP0443,Mohaddipur,Residential Plot,2829,18,8.3,0,10810000
+GKP0444,Sahjanwa,Residential Plot,2653,10,13.0,0,3320000
+GKP0445,Chargawan,Agricultural Land,14588,18,1.8,0,10060000
+GKP0446,Golghar,Residential Plot,1145,30,3.7,0,6950000
+GKP0447,Padri Bazar,Agricultural Land,9110,25,15.9,0,7550000
+GKP0448,Mohaddipur,Residential Plot,4969,20,11.9,0,17910000
+GKP0449,Rapti Nagar,Residential Plot,2577,25,1.3,0,9110000
+GKP0450,Betiahata,Residential Plot,1764,60,6.0,0,8640000
+GKP0451,Medical College Road,Residential Plot,2150,15,5.1,0,5610000
+GKP0452,Sahjanwa,Residential Plot,2295,18,2.9,0,3050000
+GKP0453,Khorabar,Residential Plot,1882,30,21.8,0,4030000
+GKP0454,Taramandal,House,2364,15,17.3,28,7800000
+GKP0455,Padri Bazar,Agricultural Land,25796,12,17.1,0,19980000
+GKP0456,Sahjanwa,Residential Plot,899,60,3.0,0,2000000
+GKP0457,Sahjanwa,Residential Plot,3989,15,1.7,0,6280000
+GKP0458,Betiahata,Commercial Property,4074,20,3.1,15,24770000
+GKP0459,Chargawan,Residential Plot,4348,10,10.4,0,6770000
+GKP0460,Transport Nagar,House,1996,40,6.7,1,8560000
+GKP0461,Naushad,Residential Plot,2474,30,9.8,0,4090000
+GKP0462,Gida,House,864,30,12.9,4,2270000
+GKP0463,Kunraghat,Commercial Property,4836,30,17.5,6,22190000
+GKP0464,Transport Nagar,Commercial Property,1080,60,4.6,3,6420000
+GKP0465,Gida,House,1744,12,3.4,8,4440000
+GKP0466,Naushad,Commercial Property,1523,18,18.1,1,3630000
+GKP0467,Golghar,House,1673,10,3.5,8,12680000
+GKP0468,Betiahata,Agricultural Land,9986,12,7.8,0,14530000
+GKP0469,Kunraghat,House,3070,12,3.2,14,10780000
+GKP0470,Padri Bazar,Agricultural Land,15294,15,20.4,0,9640000
+GKP0471,Gida,Residential Plot,3172,60,20.9,0,6520000
+GKP0472,Khorabar,House,1872,18,5.0,22,5060000
+GKP0473,Chargawan,Commercial Property,1490,10,1.8,15,4340000
+GKP0474,Medical College Road,House,1819,10,20.9,13,5840000
+GKP0475,Sahjanwa,Residential Plot,4456,40,8.7,0,7530000
+GKP0476,Khorabar,Residential Plot,4277,10,8.7,0,7860000
+GKP0477,Betiahata,Residential Plot,2298,30,14.2,0,8880000
+GKP0478,Rustampur,Residential Plot,3648,20,17.2,0,8260000
+GKP0479,Khorabar,Agricultural Land,18863,15,20.1,0,13520000
+GKP0480,Gida,Residential Plot,3728,18,15.7,0,7080000
+GKP0481,Chargawan,Residential Plot,2617,18,3.7,0,4960000
+GKP0482,Golghar,House,967,40,14.2,22,6560000
+GKP0483,Naushad,Commercial Property,3077,20,1.8,21,8140000
+GKP0484,Naushad,Residential Plot,1285,40,14.6,0,2270000
+GKP0485,Taramandal,Residential Plot,1427,30,5.3,0,4420000
+GKP0486,Mohaddipur,Agricultural Land,22206,30,5.2,0,32700000
+GKP0487,Rapti Nagar,Commercial Property,4869,25,7.5,15,22360000
+GKP0488,Mohaddipur,Commercial Property,485,10,1.1,16,3030000
+GKP0489,Transport Nagar,Commercial Property,4760,20,11.2,5,18400000
+GKP0490,Medical College Road,House,1771,18,13.6,17,6210000
+GKP0491,Betiahata,Residential Plot,4979,18,4.8,0,18910000
+GKP0492,Kunraghat,Residential Plot,1808,12,17.0,0,3900000
+GKP0493,Betiahata,Residential Plot,4645,60,9.5,0,21000000
+GKP0494,Medical College Road,Residential Plot,2348,60,5.4,0,7940000
+GKP0495,Medical College Road,House,2593,25,8.9,25,9110000
+GKP0496,Khorabar,House,1157,30,19.2,2,3180000
+GKP0497,Golghar,Residential Plot,3098,15,2.5,0,16650000
+GKP0498,Rapti Nagar,Residential Plot,635,30,2.4,0,2270000
+GKP0499,Mohaddipur,Residential Plot,4277,15,2.2,0,17320000
+GKP0500,Taramandal,Residential Plot,2669,20,10.0,0,8750000
+GKP0501,Naushad,House,2313,60,4.2,27,6340000
+GKP0502,Transport Nagar,House,870,40,15.0,3,3260000
+GKP0503,Padri Bazar,Residential Plot,1758,10,12.0,0,3460000
+GKP0504,Kunraghat,Residential Plot,3664,15,6.3,0,8420000
+GKP0505,Taramandal,Agricultural Land,7048,12,3.8,0,8700000
+GKP0506,Betiahata,Commercial Property,759,18,1.2,6,4700000
+GKP0507,Rapti Nagar,Commercial Property,1133,15,16.7,25,3800000
+GKP0508,Taramandal,House,1833,40,1.2,23,8440000
+GKP0509,Kunraghat,Agricultural Land,29221,15,5.0,0,24240000
+GKP0510,Kunraghat,House,2532,40,16.8,6,9930000
+GKP0511,Kunraghat,Residential Plot,4146,20,7.2,0,9740000
+GKP0512,Golghar,Agricultural Land,17564,30,21.5,0,31540000
+GKP0513,Rapti Nagar,House,2474,10,6.0,10,9490000
+GKP0514,Rapti Nagar,Agricultural Land,4819,30,5.2,0,6270000
+GKP0515,Medical College Road,Residential Plot,1274,60,16.2,0,3790000
+GKP0516,Taramandal,House,2983,30,18.4,8,13020000
+GKP0517,Naushad,Residential Plot,3179,60,21.1,0,6240000
+GKP0518,Mohaddipur,House,2062,30,22.0,13,8630000
+GKP0519,Padri Bazar,Residential Plot,3641,20,11.1,0,7720000
+GKP0520,Taramandal,Residential Plot,815,40,13.3,0,2900000
+GKP0521,Golghar,Commercial Property,1189,15,14.1,16,8690000
+GKP0522,Padri Bazar,House,3267,10,12.1,3,10010000
+GKP0523,Khorabar,House,1792,18,5.7,2,5540000
+GKP0524,Golghar,Commercial Property,2086,60,8.1,15,21570000
+GKP0525,Golghar,Commercial Property,468,18,8.7,18,3190000
+GKP0526,Gida,Residential Plot,2253,12,8.8,0,4400000
+GKP0527,Kunraghat,Residential Plot,2823,60,8.1,0,9660000
+GKP0528,Medical College Road,Residential Plot,4280,30,17.9,0,10430000
+GKP0529,Naushad,Agricultural Land,19434,12,2.1,0,13600000
+GKP0530,Sahjanwa,Agricultural Land,20517,20,12.6,0,10180000
+GKP0531,Padri Bazar,House,3405,10,15.3,6,10060000
+GKP0532,Gida,Residential Plot,4249,40,20.7,0,8930000
+GKP0533,Taramandal,House,3276,40,9.8,19,12950000
+GKP0534,Sahjanwa,Residential Plot,3689,15,18.6,0,4310000
+GKP0535,Taramandal,House,1448,12,4.4,30,5000000
+GKP0536,Chargawan,House,1915,60,4.2,9,6700000
+GKP0537,Taramandal,Commercial Property,4542,25,14.0,6,24680000
+GKP0538,Gida,Residential Plot,3638,10,13.3,0,6590000
+GKP0539,Transport Nagar,Residential Plot,2051,10,11.7,0,4470000
+GKP0540,Taramandal,Residential Plot,2523,40,12.1,0,8490000
+GKP0541,Rustampur,Agricultural Land,14996,12,7.7,0,13220000
+GKP0542,Golghar,House,2493,25,21.0,3,15640000
+GKP0543,Golghar,Residential Plot,3648,15,10.7,0,15390000
+GKP0544,Rustampur,House,2730,12,11.8,21,7950000
+GKP0545,Padri Bazar,Residential Plot,2697,10,3.1,0,6000000
+GKP0546,Medical College Road,Residential Plot,4981,25,16.8,0,14060000
+GKP0547,Golghar,House,1223,15,19.0,19,6030000
+GKP0548,Mohaddipur,Agricultural Land,13282,10,18.6,0,14670000
+GKP0549,Mohaddipur,Residential Plot,1456,25,8.0,0,5140000
+GKP0550,Sahjanwa,House,987,40,19.8,12,2030000
+GKP0551,Padri Bazar,Residential Plot,4201,15,20.2,0,6980000
+GKP0552,Kunraghat,Agricultural Land,13985,25,9.6,0,13780000
+GKP0553,Transport Nagar,House,3029,20,4.0,23,8900000
+GKP0554,Taramandal,Residential Plot,4061,25,8.4,0,14310000
+GKP0555,Naushad,House,3404,30,6.7,9,8240000
+GKP0556,Khorabar,Commercial Property,1228,40,19.9,14,4540000
+GKP0557,Naushad,Residential Plot,4823,25,13.0,0,7790000
+GKP0558,Naushad,House,1840,10,6.1,10,3570000
+GKP0559,Khorabar,House,3450,20,11.9,27,7620000
+GKP0560,Betiahata,House,2730,15,5.2,6,15200000
+GKP0561,Chargawan,Commercial Property,4963,15,7.1,14,14700000
+GKP0562,Chargawan,Commercial Property,4636,10,18.8,20,11990000
+GKP0563,Betiahata,House,1472,18,10.5,25,7060000
+GKP0564,Padri Bazar,Residential Plot,2400,25,3.2,0,5190000
+GKP0565,Khorabar,Residential Plot,4299,60,6.2,0,11650000
+GKP0566,Kunraghat,Commercial Property,2137,25,13.1,23,7530000
+GKP0567,Medical College Road,House,2571,15,10.9,13,8710000
+GKP0568,Kunraghat,House,1101,40,16.7,14,3540000
+GKP0569,Chargawan,Commercial Property,3039,15,13.2,22,6880000
+GKP0570,Rapti Nagar,Commercial Property,1992,30,6.4,6,10910000
+GKP0571,Mohaddipur,Agricultural Land,13493,18,19.4,0,18820000
+GKP0572,Gida,Residential Plot,4450,40,1.7,0,9750000
+GKP0573,Chargawan,Agricultural Land,25991,30,12.2,0,17480000
+GKP0574,Mohaddipur,Commercial Property,4118,20,19.7,0,23080000
+GKP0575,Kunraghat,House,1262,60,6.2,24,4490000
+GKP0576,Chargawan,Commercial Property,955,15,11.6,24,2540000
+GKP0577,Sahjanwa,House,740,20,18.0,16,1210000
+GKP0578,Mohaddipur,Residential Plot,2405,15,17.5,0,7170000
+GKP0579,Padri Bazar,Residential Plot,2878,60,1.1,0,8120000
+GKP0580,Rapti Nagar,Residential Plot,3042,20,10.7,0,8020000
+GKP0581,Khorabar,House,1548,10,3.0,21,4140000
+GKP0582,Golghar,Residential Plot,1537,30,8.6,0,8900000
+GKP0583,Rapti Nagar,Residential Plot,1507,30,1.7,0,4670000
+GKP0584,Gida,Commercial Property,2803,10,19.5,21,7210000
+GKP0585,Medical College Road,Commercial Property,2691,20,12.0,18,11320000
+GKP0586,Mohaddipur,Agricultural Land,19557,10,7.6,0,23800000
+GKP0587,Golghar,House,3818,30,18.7,2,30160000
+GKP0588,Khorabar,Commercial Property,1060,40,2.0,5,4820000
+GKP0589,Betiahata,House,1870,20,6.5,17,8430000
+GKP0590,Gida,Residential Plot,1114,10,8.4,0,1840000
+GKP0591,Betiahata,House,1488,30,20.6,21,6530000
+GKP0592,Golghar,Commercial Property,3635,20,21.8,1,31390000
+GKP0593,Padri Bazar,House,2442,40,15.3,19,7410000
+GKP0594,Kunraghat,Agricultural Land,3259,20,2.3,0,3230000
+GKP0595,Betiahata,Residential Plot,1123,25,16.4,0,3900000
+GKP0596,Khorabar,Residential Plot,696,10,19.3,0,1290000
+GKP0597,Sahjanwa,Residential Plot,775,20,6.9,0,1170000
+GKP0598,Golghar,House,1058,30,15.3,28,5430000
+GKP0599,Khorabar,Agricultural Land,29302,60,16.5,0,27370000
+GKP0600,Rustampur,Commercial Property,1334,30,5.7,13,5910000
+GKP0601,Golghar,Commercial Property,2475,30,14.5,19,20150000
+GKP0602,Gida,Residential Plot,1790,25,17.5,0,3110000
+GKP0603,Taramandal,House,3204,30,13.3,7,13140000
+GKP0604,Rustampur,Residential Plot,931,30,8.9,0,2450000
+GKP0605,Khorabar,Commercial Property,2327,15,16.9,10,7740000
+GKP0606,Sahjanwa,House,2881,30,10.6,6,5990000
+GKP0607,Mohaddipur,Residential Plot,2911,20,9.7,0,9650000
+GKP0608,Medical College Road,Residential Plot,3466,25,20.5,0,7790000
+GKP0609,Padri Bazar,House,2751,10,6.2,0,7580000
+GKP0610,Naushad,Residential Plot,1554,12,12.1,0,2100000
+GKP0611,Sahjanwa,Residential Plot,1456,10,12.5,0,1880000
+GKP0612,Gida,Residential Plot,3013,18,20.8,0,4430000
+GKP0613,Taramandal,Residential Plot,1452,12,21.6,0,3950000
+GKP0614,Betiahata,Agricultural Land,19478,30,21.5,0,25510000
+GKP0615,Medical College Road,House,2557,12,20.6,13,7110000
+GKP0616,Kunraghat,Agricultural Land,16019,18,14.6,0,15310000
+GKP0617,Golghar,Agricultural Land,4555,18,15.8,0,7370000
+GKP0618,Golghar,House,1203,12,4.3,20,6910000
+GKP0619,Sahjanwa,Commercial Property,4424,15,22.0,0,8680000
+GKP0620,Mohaddipur,Residential Plot,1131,30,2.3,0,4830000
+GKP0621,Rustampur,House,2957,18,15.6,14,9070000
+GKP0622,Golghar,House,1385,40,15.0,22,9030000
+GKP0623,Padri Bazar,Residential Plot,2015,60,1.2,0,6670000
+GKP0624,Rustampur,Residential Plot,1175,40,4.5,0,3350000
+GKP0625,Padri Bazar,Residential Plot,2440,20,21.1,0,5060000
+GKP0626,Padri Bazar,Residential Plot,1012,30,4.1,0,2650000
+GKP0627,Padri Bazar,Residential Plot,2879,30,1.2,0,6600000
+GKP0628,Rapti Nagar,Agricultural Land,6955,40,21.4,0,7130000
+GKP0629,Padri Bazar,Residential Plot,3206,60,7.7,0,8530000
+GKP0630,Golghar,House,3976,15,14.7,5,23130000
+GKP0631,Gida,Agricultural Land,28243,20,18.2,0,18790000
+GKP0632,Mohaddipur,Commercial Property,3637,40,13.9,15,22110000
+GKP0633,Padri Bazar,House,1028,10,6.1,5,2680000
+GKP0634,Transport Nagar,Residential Plot,3015,12,17.6,0,6700000
+GKP0635,Betiahata,Residential Plot,4621,20,12.8,0,17140000
+GKP0636,Chargawan,Residential Plot,3483,40,3.1,0,7920000
+GKP0637,Transport Nagar,House,2242,15,2.8,7,7670000
+GKP0638,Padri Bazar,House,2463,15,16.8,3,6310000
+GKP0639,Medical College Road,Agricultural Land,16190,30,15.7,0,15970000
+GKP0640,Naushad,Agricultural Land,22142,15,7.8,0,12560000
+GKP0641,Medical College Road,Residential Plot,2142,30,11.0,0,6230000
+GKP0642,Rapti Nagar,Residential Plot,1982,18,19.1,0,5290000
+GKP0643,Khorabar,Residential Plot,2664,40,2.4,0,6200000
+GKP0644,Kunraghat,Agricultural Land,9213,12,14.0,0,6850000
+GKP0645,Mohaddipur,Residential Plot,3139,25,9.0,0,13170000
+GKP0646,Mohaddipur,House,3224,30,21.5,12,14750000
+GKP0647,Khorabar,Agricultural Land,20348,40,19.6,0,14840000
+GKP0648,Rustampur,House,784,25,11.4,24,2410000
+GKP0649,Betiahata,Residential Plot,4313,12,6.7,0,16710000
+GKP0650,Chargawan,Residential Plot,2544,12,8.9,0,4200000
+GKP0651,Naushad,Residential Plot,3466,12,16.4,0,5060000
+GKP0652,Khorabar,Agricultural Land,3438,10,16.2,0,2600000
+GKP0653,Chargawan,Agricultural Land,20761,18,13.8,0,13270000
+GKP0654,Padri Bazar,Residential Plot,1776,15,14.8,0,3680000
+GKP0655,Medical College Road,Commercial Property,2836,60,10.5,8,16850000
+GKP0656,Rustampur,Agricultural Land,13547,40,20.2,0,14600000
+GKP0657,Kunraghat,House,3884,10,2.8,27,10510000
+GKP0658,Betiahata,Residential Plot,1734,60,5.1,0,10050000
+GKP0659,Transport Nagar,Commercial Property,1665,10,8.0,16,6080000
+GKP0660,Mohaddipur,Residential Plot,703,60,7.3,0,3220000
+GKP0661,Kunraghat,House,3047,20,14.3,0,9340000
+GKP0662,Padri Bazar,Residential Plot,3563,60,4.4,0,9870000
+GKP0663,Khorabar,Residential Plot,4080,20,5.0,0,7920000
+GKP0664,Khorabar,Residential Plot,2984,25,20.8,0,5540000
+GKP0665,Mohaddipur,Agricultural Land,17574,10,1.9,0,26320000
+GKP0666,Gida,Commercial Property,3877,10,17.3,14,9840000
+GKP0667,Taramandal,Residential Plot,1934,20,2.3,0,6810000
+GKP0668,Transport Nagar,House,811,10,19.0,22,1820000
+GKP0669,Mohaddipur,Residential Plot,1326,25,8.4,0,4620000
+GKP0670,Kunraghat,Residential Plot,1419,10,2.2,0,3830000
+GKP0671,Medical College Road,Residential Plot,4016,60,21.3,0,11600000
+GKP0672,Taramandal,House,3059,30,3.0,2,14130000
+GKP0673,Golghar,House,952,60,15.1,9,8370000
+GKP0674,Golghar,House,3950,10,19.2,10,22440000
+GKP0675,Mohaddipur,House,714,60,6.4,19,4300000
+GKP0676,Chargawan,Residential Plot,1364,60,16.3,0,3160000
+GKP0677,Medical College Road,Residential Plot,3132,15,5.1,0,7460000
+GKP0678,Rustampur,House,2526,25,9.1,6,9200000
+GKP0679,Golghar,Residential Plot,1014,25,17.0,0,5420000
+GKP0680,Naushad,Agricultural Land,23023,25,20.5,0,13160000
+GKP0681,Medical College Road,Residential Plot,615,12,3.0,0,1620000
+GKP0682,Medical College Road,Commercial Property,4862,60,4.1,20,28690000
+GKP0683,Golghar,Residential Plot,3288,10,6.9,0,15500000
+GKP0684,Chargawan,Commercial Property,1589,30,15.6,0,4610000
+GKP0685,Padri Bazar,House,3366,12,14.6,14,8390000
+GKP0686,Rapti Nagar,Residential Plot,2533,12,3.1,0,6810000
+GKP0687,Gida,Residential Plot,2573,60,7.0,0,6060000
+GKP0688,Mohaddipur,Agricultural Land,11696,60,20.3,0,18320000
+GKP0689,Golghar,Residential Plot,4481,25,8.3,0,25200000
+GKP0690,Betiahata,House,3602,60,12.6,3,23560000
+GKP0691,Transport Nagar,Residential Plot,2751,15,3.1,0,6140000
+GKP0692,Chargawan,House,1343,10,15.6,1,2730000
+GKP0693,Medical College Road,House,3473,10,5.0,10,13240000
+GKP0694,Rustampur,Agricultural Land,11775,12,21.2,0,9880000
+GKP0695,Rapti Nagar,Commercial Property,3316,30,18.2,14,15160000
+GKP0696,Sahjanwa,Residential Plot,2947,60,15.0,0,4700000
+GKP0697,Medical College Road,Residential Plot,1051,10,5.0,0,2920000
+GKP0698,Taramandal,House,2774,10,10.1,1,11320000
+GKP0699,Betiahata,House,3078,20,11.2,16,16390000
+GKP0700,Kunraghat,House,3196,20,1.6,26,10420000
+GKP0701,Gida,Residential Plot,2004,40,16.1,0,3550000
+GKP0702,Transport Nagar,Residential Plot,1506,10,13.6,0,2890000
+GKP0703,Medical College Road,Agricultural Land,28202,20,13.9,0,26350000
+GKP0704,Golghar,Residential Plot,1446,30,3.1,0,7400000
+GKP0705,Padri Bazar,Residential Plot,1969,60,15.9,0,5510000
+GKP0706,Sahjanwa,House,1361,60,18.8,26,2710000
+GKP0707,Sahjanwa,Residential Plot,896,60,6.8,0,1530000
+GKP0708,Medical College Road,Residential Plot,1668,12,12.0,0,4610000
+GKP0709,Kunraghat,Residential Plot,4572,20,8.1,0,11980000
+GKP0710,Kunraghat,Residential Plot,1293,30,15.1,0,3410000
+GKP0711,Gida,House,3613,15,1.7,23,7270000
+GKP0712,Kunraghat,Residential Plot,702,15,11.4,0,1540000
+GKP0713,Golghar,House,2550,30,15.0,17,15660000
+GKP0714,Rapti Nagar,House,1842,25,7.6,26,6170000
+GKP0715,Golghar,House,2991,12,10.3,12,20470000
+GKP0716,Gida,Commercial Property,470,12,11.7,0,1430000
+GKP0717,Betiahata,Agricultural Land,3273,20,21.0,0,4080000
+GKP0718,Sahjanwa,Commercial Property,2568,25,5.3,23,6110000
+GKP0719,Golghar,House,3799,20,6.6,29,19790000
+GKP0720,Sahjanwa,House,1494,25,16.5,30,2550000
+GKP0721,Taramandal,Residential Plot,3811,10,15.5,0,11060000
+GKP0722,Chargawan,Commercial Property,623,20,20.1,11,1750000
+GKP0723,Chargawan,House,3382,15,11.6,11,6600000
+GKP0724,Padri Bazar,Residential Plot,3499,20,2.1,0,7490000
+GKP0725,Gida,Residential Plot,2514,25,17.5,0,3970000
+GKP0726,Taramandal,Commercial Property,4297,18,14.8,12,19730000
+GKP0727,Kunraghat,House,1208,10,19.4,21,3390000
+GKP0728,Sahjanwa,House,3412,25,21.7,5,5970000
+GKP0729,Padri Bazar,House,950,15,7.8,30,1900000
+GKP0730,Golghar,Residential Plot,3224,30,1.8,0,17900000
+GKP0731,Rapti Nagar,Agricultural Land,7012,18,15.3,0,7630000
+GKP0732,Rustampur,Commercial Property,1842,30,12.7,0,7640000
+GKP0733,Taramandal,Agricultural Land,3947,25,20.7,0,4740000
+GKP0734,Padri Bazar,Residential Plot,947,40,10.5,0,2450000
+GKP0735,Kunraghat,Residential Plot,629,30,17.7,0,1560000
+GKP0736,Padri Bazar,Residential Plot,2726,15,21.3,0,4900000
+GKP0737,Gida,House,2175,18,12.6,14,4820000
+GKP0738,Chargawan,Agricultural Land,25322,12,12.9,0,15320000
+GKP0739,Naushad,Commercial Property,681,60,15.7,21,2190000
+GKP0740,Golghar,House,1708,40,11.5,23,11690000
+GKP0741,Rustampur,Residential Plot,4811,40,13.8,0,12160000
+GKP0742,Golghar,Commercial Property,4137,30,9.2,19,36970000
+GKP0743,Naushad,House,2066,10,14.5,11,4320000
+GKP0744,Taramandal,House,2572,40,15.3,13,10660000
+GKP0745,Gida,Commercial Property,4808,60,21.4,3,19910000
+GKP0746,Naushad,House,3193,12,12.4,26,5970000
+GKP0747,Gida,Commercial Property,2748,10,9.0,21,7270000
+GKP0748,Transport Nagar,Residential Plot,2502,60,18.6,0,6930000
+GKP0749,Rapti Nagar,Residential Plot,4908,10,10.9,0,12360000
+GKP0750,Betiahata,Commercial Property,3614,15,13.4,15,18750000
+GKP0751,Rustampur,Agricultural Land,11197,30,19.6,0,9760000
+GKP0752,Golghar,Residential Plot,3475,20,11.1,0,19170000
+GKP0753,Rapti Nagar,Commercial Property,838,40,12.6,11,4290000
+GKP0754,Rapti Nagar,Residential Plot,2885,10,11.5,0,8660000
+GKP0755,Padri Bazar,House,2113,20,11.6,15,6140000
+GKP0756,Mohaddipur,Residential Plot,1890,60,18.1,0,9080000
+GKP0757,Taramandal,Commercial Property,2570,15,17.0,5,11220000
+GKP0758,Rustampur,House,1713,15,9.1,8,6040000
+GKP0759,Sahjanwa,Commercial Property,1506,10,17.1,4,3640000
+GKP0760,Betiahata,Commercial Property,2188,60,17.8,10,16460000
+GKP0761,Medical College Road,Commercial Property,2576,15,17.9,10,9810000
+GKP0762,Rustampur,Residential Plot,4147,15,22.0,0,9670000
+GKP0763,Taramandal,Agricultural Land,11397,60,10.2,0,16420000
+GKP0764,Rustampur,House,1129,12,20.6,30,2380000
+GKP0765,Gida,Residential Plot,1230,25,5.7,0,2500000
+GKP0766,Rapti Nagar,Residential Plot,2877,25,19.7,0,8050000
+GKP0767,Golghar,Residential Plot,3656,18,7.7,0,20300000
+GKP0768,Rapti Nagar,House,1510,30,18.5,8,6100000
+GKP0769,Sahjanwa,House,3260,12,14.5,27,4550000
+GKP0770,Mohaddipur,Residential Plot,3917,60,13.6,0,17680000
+GKP0771,Gida,Residential Plot,3192,25,5.5,0,6720000
+GKP0772,Chargawan,House,2830,30,18.1,8,6110000
+GKP0773,Taramandal,Residential Plot,3556,30,8.4,0,11570000
+GKP0774,Khorabar,Commercial Property,1461,15,5.4,19,4280000
+GKP0775,Golghar,Residential Plot,1494,40,4.3,0,8820000
+GKP0776,Medical College Road,Agricultural Land,17462,10,5.5,0,19500000
+GKP0777,Gida,House,3637,15,9.8,12,7770000
+GKP0778,Kunraghat,Residential Plot,1165,10,8.6,0,2780000
+GKP0779,Golghar,Residential Plot,762,18,17.6,0,3800000
+GKP0780,Kunraghat,House,1763,15,2.1,9,6160000
+GKP0781,Taramandal,House,1264,20,4.9,22,4360000
+GKP0782,Golghar,Agricultural Land,12396,25,9.0,0,21830000
+GKP0783,Betiahata,House,2758,40,16.8,2,16050000
+GKP0784,Golghar,Residential Plot,3208,10,1.5,0,16200000
+GKP0785,Padri Bazar,Residential Plot,4487,18,15.4,0,7930000
+GKP0786,Golghar,Residential Plot,3508,15,15.1,0,15800000
+GKP0787,Naushad,Commercial Property,3751,30,21.8,4,10900000
+GKP0788,Naushad,Commercial Property,4306,30,17.8,9,12970000
+GKP0789,Golghar,House,2268,20,18.9,17,12830000
+GKP0790,Mohaddipur,Commercial Property,4153,60,6.2,22,31780000
+GKP0791,Medical College Road,Agricultural Land,23437,12,13.0,0,22770000
+GKP0792,Naushad,Residential Plot,3812,60,6.4,0,8810000
+GKP0793,Transport Nagar,House,3326,12,5.0,20,10130000
+GKP0794,Chargawan,Residential Plot,2847,12,6.3,0,5310000
+GKP0795,Mohaddipur,Residential Plot,3152,12,2.8,0,11740000
+GKP0796,Padri Bazar,Commercial Property,2418,20,8.2,16,7650000
+GKP0797,Khorabar,Agricultural Land,10510,15,21.8,0,6640000
+GKP0798,Rapti Nagar,Residential Plot,1980,15,2.2,0,6240000
+GKP0799,Chargawan,Residential Plot,2855,15,14.2,0,5040000
+GKP0800,Betiahata,Agricultural Land,13819,30,18.2,0,21510000
+GKP0801,Kunraghat,Commercial Property,2609,10,16.9,16,9830000
+GKP0802,Betiahata,Commercial Property,699,60,5.7,7,6200000
+GKP0803,Mohaddipur,Agricultural Land,28053,20,8.3,0,41200000
+GKP0804,Medical College Road,Residential Plot,3621,15,1.5,0,9180000
+GKP0805,Medical College Road,House,2556,25,17.3,16,8250000
+GKP0806,Taramandal,Residential Plot,1803,15,7.6,0,5000000
+GKP0807,Rustampur,Residential Plot,821,12,15.0,0,1940000
+GKP0808,Betiahata,Commercial Property,4698,25,3.9,24,29040000
+GKP0809,Rustampur,House,903,18,10.0,9,2820000
+GKP0810,Rapti Nagar,Commercial Property,3524,30,14.2,16,16630000
+GKP0811,Golghar,Commercial Property,446,20,6.7,9,3660000
+GKP0812,Chargawan,House,3788,20,14.0,19,7580000
+GKP0813,Golghar,Residential Plot,2669,10,15.4,0,10830000
+GKP0814,Sahjanwa,Commercial Property,2351,18,14.5,7,5620000
+GKP0815,Mohaddipur,House,839,60,16.4,29,4400000
+GKP0816,Gida,Residential Plot,922,15,9.9,0,1530000
+GKP0817,Transport Nagar,Residential Plot,2214,18,5.6,0,5580000
+GKP0818,Betiahata,House,2918,18,10.9,21,11670000
+GKP0819,Medical College Road,House,726,12,7.8,10,2580000
+GKP0820,Transport Nagar,Residential Plot,1327,25,10.8,0,3040000
+GKP0821,Chargawan,Residential Plot,1496,40,22.0,0,2610000
+GKP0822,Medical College Road,Residential Plot,1284,60,1.4,0,4740000
+GKP0823,Kunraghat,Agricultural Land,22372,20,10.7,0,22510000
+GKP0824,Mohaddipur,Residential Plot,3144,60,18.8,0,15230000
+GKP0825,Sahjanwa,Residential Plot,1721,40,11.8,0,2820000
+GKP0826,Betiahata,Agricultural Land,28645,25,7.5,0,43140000
+GKP0827,Naushad,Residential Plot,1187,18,18.0,0,1860000
+GKP0828,Rapti Nagar,House,1045,20,18.1,11,4020000
+GKP0829,Mohaddipur,House,2986,12,11.0,25,13060000
+GKP0830,Gida,Residential Plot,3027,18,7.4,0,5570000
+GKP0831,Naushad,House,2498,18,5.6,23,5350000
+GKP0832,Rapti Nagar,Agricultural Land,12342,10,12.8,0,12740000
+GKP0833,Rustampur,Commercial Property,765,10,12.2,3,3220000
+GKP0834,Naushad,House,3021,25,6.5,1,7280000
+GKP0835,Gida,House,2034,40,2.5,15,5360000
+GKP0836,Medical College Road,Residential Plot,2026,25,4.7,0,6440000
+GKP0837,Khorabar,Residential Plot,1523,40,7.2,0,3550000
+GKP0838,Naushad,Agricultural Land,20056,60,16.0,0,13780000
+GKP0839,Taramandal,Agricultural Land,19020,12,3.2,0,21970000
+GKP0840,Transport Nagar,Residential Plot,2926,12,15.6,0,5810000
+GKP0841,Naushad,Residential Plot,2117,18,4.3,0,3500000
+GKP0842,Gida,Residential Plot,3368,60,4.0,0,8470000
+GKP0843,Mohaddipur,Residential Plot,1466,25,2.2,0,5400000
+GKP0844,Rustampur,House,3893,18,10.3,20,11810000
+GKP0845,Medical College Road,Residential Plot,639,18,2.5,0,1670000
+GKP0846,Rapti Nagar,Agricultural Land,15602,20,21.6,0,15020000
+GKP0847,Transport Nagar,Residential Plot,4297,15,6.0,0,8670000
+GKP0848,Mohaddipur,House,1014,18,4.8,22,4770000
+GKP0849,Khorabar,Commercial Property,1978,15,12.3,10,5730000
+GKP0850,Taramandal,Residential Plot,2779,18,13.9,0,7630000
+GKP0851,Rapti Nagar,Residential Plot,1433,60,1.9,0,5850000
+GKP0852,Rustampur,Residential Plot,3012,40,2.8,0,9670000
+GKP0853,Sahjanwa,Residential Plot,4914,12,7.6,0,7590000
+GKP0854,Mohaddipur,Agricultural Land,24505,18,14.9,0,31760000
+GKP0855,Betiahata,Agricultural Land,13524,20,8.5,0,20600000
+GKP0856,Rustampur,Residential Plot,3003,10,7.6,0,7940000
+GKP0857,Kunraghat,Residential Plot,783,40,10.3,0,2290000
+GKP0858,Mohaddipur,Agricultural Land,6652,30,6.5,0,9570000
+GKP0859,Gida,Residential Plot,2075,18,16.1,0,3900000
+GKP0860,Rapti Nagar,House,2908,20,18.4,15,10700000
+GKP0861,Rapti Nagar,Agricultural Land,10912,12,17.8,0,11860000
+GKP0862,Kunraghat,Commercial Property,3839,20,3.5,4,18080000
+GKP0863,Golghar,Residential Plot,3844,30,20.1,0,17350000
+GKP0864,Padri Bazar,House,1996,18,4.7,18,4760000
+GKP0865,Chargawan,House,2042,25,4.3,13,4920000
+GKP0866,Rapti Nagar,Residential Plot,2226,15,7.5,0,6340000
+GKP0867,Mohaddipur,Agricultural Land,11030,20,14.0,0,13200000
+GKP0868,Mohaddipur,Residential Plot,1383,30,18.6,0,4630000
+GKP0869,Padri Bazar,Residential Plot,1481,15,13.4,0,2990000
+GKP0870,Kunraghat,Agricultural Land,21543,18,14.8,0,18740000
+GKP0871,Khorabar,Residential Plot,1979,60,3.0,0,5800000
+GKP0872,Taramandal,Agricultural Land,22653,20,7.8,0,28970000
+GKP0873,Gida,Commercial Property,3166,18,6.6,13,9610000
+GKP0874,Padri Bazar,Commercial Property,4825,20,21.0,8,16580000
+GKP0875,Gida,Agricultural Land,13924,18,21.9,0,7780000
+GKP0876,Taramandal,House,2412,40,20.1,17,10280000
+GKP0877,Padri Bazar,House,2769,20,11.7,4,7130000
+GKP0878,Medical College Road,Commercial Property,2664,30,17.7,19,10660000
+GKP0879,Taramandal,Residential Plot,2928,10,11.0,0,8040000
+GKP0880,Kunraghat,Residential Plot,1034,30,10.1,0,2610000
+GKP0881,Transport Nagar,House,1525,18,11.0,10,4650000
+GKP0882,Taramandal,Agricultural Land,3170,10,10.5,0,3280000
+GKP0883,Medical College Road,House,2806,20,9.3,8,10610000
+GKP0884,Chargawan,Residential Plot,3738,10,9.5,0,6270000
+GKP0885,Betiahata,Agricultural Land,15408,12,21.9,0,18370000
+GKP0886,Mohaddipur,Commercial Property,904,18,21.7,14,4820000
+GKP0887,Betiahata,Agricultural Land,7954,30,3.7,0,13770000
+GKP0888,Kunraghat,Agricultural Land,16077,60,3.2,0,18460000
+GKP0889,Chargawan,Residential Plot,4771,20,2.7,0,9210000
+GKP0890,Transport Nagar,Commercial Property,2896,15,11.9,23,8390000
+GKP0891,Medical College Road,Residential Plot,4493,60,5.3,0,17590000
+GKP0892,Medical College Road,Residential Plot,1009,25,16.7,0,2800000
+GKP0893,Rustampur,Residential Plot,1436,20,5.3,0,3900000
+GKP0894,Sahjanwa,Residential Plot,890,20,3.4,0,1370000
+GKP0895,Medical College Road,House,1312,10,21.5,10,4240000
+GKP0896,Gida,Residential Plot,1399,30,4.2,0,2680000
+GKP0897,Kunraghat,Agricultural Land,22257,25,4.7,0,22280000
+GKP0898,Sahjanwa,Agricultural Land,9906,30,16.4,0,5850000
+GKP0899,Taramandal,Residential Plot,3055,12,9.1,0,9870000
+GKP0900,Sahjanwa,House,2472,40,18.4,19,4640000
+GKP0901,Sahjanwa,Commercial Property,2691,15,18.9,10,5020000
+GKP0902,Transport Nagar,Commercial Property,1220,18,4.1,7,4560000
+GKP0903,Sahjanwa,Commercial Property,2795,10,1.6,17,6380000
+GKP0904,Gida,Residential Plot,4808,25,19.6,0,7890000
+GKP0905,Transport Nagar,Commercial Property,4666,30,9.9,17,19320000
+GKP0906,Gida,Commercial Property,428,20,11.0,19,1260000
+GKP0907,Transport Nagar,Commercial Property,736,40,9.5,5,3670000
+GKP0908,Taramandal,Residential Plot,3185,30,1.2,0,10910000
+GKP0909,Medical College Road,Residential Plot,3308,10,4.3,0,9820000
+GKP0910,Naushad,Residential Plot,3147,60,13.7,0,5830000
+GKP0911,Rustampur,Residential Plot,887,30,18.0,0,2160000
+GKP0912,Golghar,House,1276,60,15.4,18,9750000
+GKP0913,Gida,Commercial Property,1180,15,1.3,25,2910000
+GKP0914,Kunraghat,House,1292,30,14.2,10,4300000
+GKP0915,Transport Nagar,Commercial Property,1394,40,1.1,6,7010000
+GKP0916,Chargawan,Agricultural Land,24968,40,18.9,0,16960000
+GKP0917,Golghar,House,3420,25,2.2,1,25200000
+GKP0918,Naushad,Residential Plot,3024,10,18.6,0,4820000
+GKP0919,Padri Bazar,Residential Plot,3447,60,2.4,0,10050000
+GKP0920,Taramandal,Residential Plot,4297,15,1.5,0,13620000
+GKP0921,Taramandal,Commercial Property,4507,10,12.9,3,21270000
+GKP0922,Medical College Road,Commercial Property,1914,60,19.4,24,9000000
+GKP0923,Padri Bazar,Commercial Property,2918,60,14.8,4,11970000
+GKP0924,Medical College Road,Agricultural Land,9467,30,21.0,0,8970000
+GKP0925,Mohaddipur,Commercial Property,2585,15,12.4,18,14160000
+GKP0926,Naushad,Commercial Property,4901,12,11.0,15,12290000
+GKP0927,Sahjanwa,House,1184,15,3.5,1,2490000
+GKP0928,Medical College Road,House,1246,12,16.2,6,3890000
+GKP0929,Mohaddipur,Residential Plot,4544,60,7.7,0,20580000
+GKP0930,Gida,House,1049,20,7.4,26,2050000
+GKP0931,Naushad,Commercial Property,991,20,17.0,15,2410000
+GKP0932,Rustampur,House,861,20,4.8,11,3140000
+GKP0933,Sahjanwa,Residential Plot,4330,40,17.8,0,7080000
+GKP0934,Gida,Residential Plot,685,30,13.5,0,1430000
+GKP0935,Gida,Residential Plot,2235,40,4.4,0,4760000
+GKP0936,Betiahata,Commercial Property,545,12,6.4,5,3810000
+GKP0937,Transport Nagar,Residential Plot,2953,15,11.7,0,6120000
+GKP0938,Taramandal,Residential Plot,2864,25,5.8,0,9650000
+GKP0939,Rustampur,Residential Plot,2269,25,6.0,0,5380000
+GKP0940,Rapti Nagar,Residential Plot,4141,60,18.5,0,13950000
+GKP0941,Padri Bazar,House,2600,40,6.0,24,7280000
+GKP0942,Kunraghat,Residential Plot,1928,15,19.4,0,4470000
+GKP0943,Khorabar,Residential Plot,4581,20,9.0,0,9260000
+GKP0944,Khorabar,Residential Plot,3041,12,21.4,0,5490000
+GKP0945,Chargawan,House,1788,15,4.1,16,4020000
+GKP0946,Kunraghat,Residential Plot,3701,40,9.8,0,10020000
+GKP0947,Kunraghat,Agricultural Land,11833,25,4.2,0,10790000
+GKP0948,Rapti Nagar,House,3998,60,20.0,30,14300000
+GKP0949,Rustampur,House,951,60,14.7,1,4310000
+GKP0950,Gida,Residential Plot,3445,40,21.4,0,6450000
+GKP0951,Naushad,Commercial Property,3289,15,19.2,18,6910000
+GKP0952,Khorabar,Residential Plot,4014,30,12.2,0,8570000
+GKP0953,Khorabar,Commercial Property,1296,30,6.7,25,4010000
+GKP0954,Medical College Road,House,778,12,17.2,15,2120000
+GKP0955,Chargawan,House,3246,40,3.7,19,8160000
+GKP0956,Sahjanwa,Residential Plot,4385,12,16.9,0,5440000
+GKP0957,Padri Bazar,House,2644,40,3.6,26,7060000
+GKP0958,Rustampur,House,1691,15,17.0,26,4100000
+GKP0959,Padri Bazar,Residential Plot,973,60,18.9,0,2610000
+GKP0960,Padri Bazar,House,856,60,5.9,22,2950000
+GKP0961,Mohaddipur,Commercial Property,3306,25,11.1,8,20840000
+GKP0962,Betiahata,Residential Plot,689,25,19.2,0,2300000
+GKP0963,Medical College Road,Residential Plot,2211,12,21.8,0,5100000
+GKP0964,Taramandal,Residential Plot,2908,15,21.6,0,7240000
+GKP0965,Medical College Road,Residential Plot,3793,12,15.3,0,8210000
+GKP0966,Medical College Road,House,1838,12,17.2,7,6400000
+GKP0967,Padri Bazar,Residential Plot,2217,30,21.8,0,4230000
+GKP0968,Taramandal,Commercial Property,1589,12,14.9,2,8420000
+GKP0969,Rustampur,House,822,25,7.4,28,2660000
+GKP0970,Chargawan,Residential Plot,1316,18,5.0,0,2510000
+GKP0971,Chargawan,Residential Plot,4268,20,2.6,0,8160000
+GKP0972,Betiahata,Commercial Property,4016,60,15.1,19,31210000
+GKP0973,Medical College Road,Agricultural Land,16655,10,19.6,0,13990000
+GKP0974,Betiahata,House,3905,10,5.4,22,19910000
+GKP0975,Rustampur,House,1409,60,9.3,5,6610000
+GKP0976,Khorabar,Agricultural Land,20376,60,14.7,0,20450000
+GKP0977,Padri Bazar,Commercial Property,1812,12,3.2,23,6350000
+GKP0978,Rapti Nagar,Residential Plot,4403,10,10.8,0,11560000
+GKP0979,Mohaddipur,Residential Plot,3162,12,12.5,0,10680000
+GKP0980,Betiahata,Residential Plot,2854,25,14.4,0,11960000
+GKP0981,Transport Nagar,Residential Plot,3391,25,18.8,0,7160000
+GKP0982,Gida,Residential Plot,1458,18,10.4,0,2490000
+GKP0983,Khorabar,Residential Plot,3697,25,2.1,0,7930000
+GKP0984,Taramandal,Residential Plot,3635,60,5.2,0,13350000
+GKP0985,Rustampur,House,2132,18,21.9,1,7410000
+GKP0986,Khorabar,Residential Plot,3904,15,10.7,0,8120000
+GKP0987,Golghar,Residential Plot,4132,30,9.8,0,24150000
+GKP0988,Medical College Road,Agricultural Land,5994,10,13.1,0,5240000
+GKP0989,Khorabar,Agricultural Land,21526,18,2.7,0,17540000
+GKP0990,Sahjanwa,Residential Plot,3423,40,8.1,0,6280000
+GKP0991,Mohaddipur,Residential Plot,1804,20,1.7,0,6660000
+GKP0992,Khorabar,House,2938,10,3.8,4,7550000
+GKP0993,Medical College Road,Agricultural Land,22355,60,2.0,0,33820000
+GKP0994,Kunraghat,Agricultural Land,22903,15,7.0,0,20310000
+GKP0995,Kunraghat,Commercial Property,3937,10,6.1,18,15210000
+GKP0996,Gida,Commercial Property,2320,18,9.4,10,6880000
+GKP0997,Mohaddipur,House,3633,20,10.3,24,14850000
+GKP0998,Transport Nagar,Residential Plot,1736,12,7.2,0,3540000
+GKP0999,Gida,Residential Plot,2483,10,17.7,0,3800000
+GKP1000,Kunraghat,House,2138,18,5.1,27,5750000
+GKP1001,Golghar,House,890,18,10.4,15,5600000
+GKP1002,Rapti Nagar,Residential Plot,4853,25,2.5,0,14800000
+GKP1003,Mohaddipur,Residential Plot,4139,10,9.6,0,13880000
+GKP1004,Betiahata,Agricultural Land,6348,18,6.0,0,10330000
+GKP1005,Kunraghat,House,3162,10,3.8,5,11020000
+GKP1006,Golghar,Residential Plot,1521,20,7.0,0,6970000
+GKP1007,Padri Bazar,Residential Plot,2913,18,14.0,0,6340000
+GKP1008,Naushad,Residential Plot,1087,15,8.6,0,1710000
+GKP1009,Gida,Agricultural Land,8729,20,9.7,0,6760000
+GKP1010,Sahjanwa,Agricultural Land,4760,15,11.6,0,2710000
+GKP1011,Gida,House,1233,30,14.8,13,3060000
+GKP1012,Khorabar,Residential Plot,3013,30,14.5,0,6110000
+GKP1013,Betiahata,House,714,10,2.6,29,3060000
+GKP1014,Gida,Residential Plot,960,30,7.5,0,2150000
+GKP1015,Betiahata,Agricultural Land,8932,25,21.3,0,13240000
+GKP1016,Rapti Nagar,Commercial Property,1799,12,15.4,9,7890000
+GKP1017,Chargawan,Residential Plot,674,60,7.6,0,1430000
+GKP1018,Transport Nagar,Residential Plot,2565,20,18.7,0,5780000
+GKP1019,Golghar,Residential Plot,2522,18,10.7,0,13210000
+GKP1020,Taramandal,Commercial Property,673,30,10.2,10,3740000
+GKP1021,Golghar,House,1379,40,20.8,21,8500000
+GKP1022,Gida,Residential Plot,1574,15,11.5,0,2740000
+GKP1023,Naushad,Commercial Property,2896,15,15.0,11,7460000
+GKP1024,Transport Nagar,Residential Plot,2410,40,9.7,0,6840000
+GKP1025,Rapti Nagar,Agricultural Land,7991,25,7.3,0,9670000
+GKP1026,Betiahata,Residential Plot,3857,30,2.5,0,14950000
+GKP1027,Chargawan,Residential Plot,4218,12,19.5,0,6290000
+GKP1028,Betiahata,House,1607,18,7.3,8,7680000
+GKP1029,Medical College Road,Residential Plot,3486,30,5.2,0,11060000
+GKP1030,Padri Bazar,Commercial Property,1801,40,20.9,3,6890000
+GKP1031,Medical College Road,House,2725,20,11.6,0,11410000
+GKP1032,Khorabar,Residential Plot,4720,30,14.9,0,8880000
+GKP1033,Golghar,Residential Plot,1891,12,14.3,0,8570000
+GKP1034,Sahjanwa,Residential Plot,2893,30,13.3,0,4360000
+GKP1035,Khorabar,Residential Plot,3040,25,9.1,0,6180000
+GKP1036,Mohaddipur,Residential Plot,4675,25,13.7,0,16430000
+GKP1037,Mohaddipur,Commercial Property,4342,10,15.6,21,21070000
+GKP1038,Betiahata,Residential Plot,4999,60,10.3,0,23570000
+GKP1039,Khorabar,House,1362,10,11.6,14,3650000
+GKP1040,Rustampur,Commercial Property,3647,25,4.8,12,17480000
+GKP1041,Khorabar,Commercial Property,4952,18,3.6,14,17250000
+GKP1042,Naushad,Residential Plot,4116,12,10.8,0,6220000
+GKP1043,Naushad,Residential Plot,4742,10,16.7,0,7270000
+GKP1044,Chargawan,Agricultural Land,5752,18,9.2,0,3430000
+GKP1045,Mohaddipur,Agricultural Land,10445,25,8.2,0,14180000
+GKP1046,Gida,House,1759,18,16.9,22,3650000
+GKP1047,Khorabar,Commercial Property,1565,20,4.2,6,5480000
+GKP1048,Betiahata,Commercial Property,4920,20,19.0,16,24320000
+GKP1049,Rapti Nagar,House,2776,60,17.8,30,10950000
+GKP1050,Gida,Commercial Property,4062,25,5.8,17,13080000
+GKP1051,Mohaddipur,Residential Plot,4463,60,5.8,0,20600000
+GKP1052,Sahjanwa,Residential Plot,4379,10,16.0,0,5260000
+GKP1053,Kunraghat,Residential Plot,882,20,6.1,0,2040000
+GKP1054,Kunraghat,Residential Plot,640,10,1.7,0,1620000
+GKP1055,Khorabar,House,3371,12,19.3,2,8710000
+GKP1056,Khorabar,Residential Plot,863,20,5.4,0,1940000
+GKP1057,Khorabar,Agricultural Land,27679,30,7.5,0,21360000
+GKP1058,Rustampur,Residential Plot,1478,15,14.3,0,3150000
+GKP1059,Rustampur,Residential Plot,4646,20,19.0,0,11170000
+GKP1060,Taramandal,Residential Plot,3511,25,5.7,0,10660000
+GKP1061,Transport Nagar,Residential Plot,2673,25,5.6,0,6880000
+GKP1062,Betiahata,Commercial Property,3303,60,10.2,4,30640000
+GKP1063,Taramandal,House,3475,40,5.9,21,15460000
+GKP1064,Sahjanwa,Residential Plot,4858,30,5.1,0,7440000
+GKP1065,Chargawan,House,2372,25,10.2,15,5950000
+GKP1066,Kunraghat,Agricultural Land,25679,20,14.3,0,23060000
+GKP1067,Betiahata,House,2116,30,1.5,9,11110000
+GKP1068,Golghar,Commercial Property,619,40,13.9,1,5690000
+GKP1069,Gida,Agricultural Land,23713,12,19.6,0,15350000
+GKP1070,Medical College Road,Residential Plot,1659,12,9.4,0,4030000
+GKP1071,Khorabar,Agricultural Land,19173,15,18.4,0,11980000
+GKP1072,Betiahata,Residential Plot,4914,60,12.7,0,21830000
+GKP1073,Sahjanwa,Commercial Property,2878,10,12.5,7,6760000
+GKP1074,Golghar,Residential Plot,3058,12,4.4,0,14610000
+GKP1075,Sahjanwa,Agricultural Land,6912,15,14.1,0,3380000
+GKP1076,Gida,Residential Plot,1661,20,7.2,0,2980000
+GKP1077,Rustampur,House,2194,60,5.7,18,9160000
+GKP1078,Gida,Residential Plot,1258,60,4.7,0,3190000
+GKP1079,Mohaddipur,Residential Plot,2183,10,20.6,0,6780000
+GKP1080,Gida,Residential Plot,4050,30,7.1,0,7960000
+GKP1081,Transport Nagar,Commercial Property,4227,20,21.9,8,14860000
+GKP1082,Kunraghat,House,3673,25,19.1,19,10490000
+GKP1083,Chargawan,Residential Plot,3571,10,13.9,0,6160000
+GKP1084,Rustampur,Residential Plot,2582,40,11.7,0,7890000
+GKP1085,Khorabar,Residential Plot,2460,25,16.8,0,5330000
+GKP1086,Medical College Road,Agricultural Land,6151,12,17.1,0,5040000
+GKP1087,Betiahata,House,2997,25,10.1,19,14820000
+GKP1088,Khorabar,House,2624,25,5.5,1,9000000
+GKP1089,Sahjanwa,Agricultural Land,7861,15,4.7,0,4020000
+GKP1090,Khorabar,Agricultural Land,15899,60,2.2,0,15080000
+GKP1091,Gida,Residential Plot,2099,40,14.1,0,4310000
+GKP1092,Golghar,Agricultural Land,11612,15,18.5,0,21410000
+GKP1093,Khorabar,House,2626,30,14.8,27,5580000
+GKP1094,Khorabar,House,2848,10,1.1,6,7840000
+GKP1095,Taramandal,House,1718,10,21.8,14,6460000
+GKP1096,Khorabar,Residential Plot,4419,18,14.6,0,8860000
+GKP1097,Gida,Commercial Property,2022,12,8.0,6,6480000
+GKP1098,Chargawan,Commercial Property,3241,10,4.7,24,7280000
+GKP1099,Rustampur,Residential Plot,1445,10,12.1,0,3520000
+GKP1100,Gida,Residential Plot,3190,10,15.2,0,4750000
+GKP1101,Medical College Road,Residential Plot,4412,30,19.8,0,11850000
+GKP1102,Gida,House,1386,30,15.2,21,3410000
+GKP1103,Medical College Road,Agricultural Land,21131,18,8.2,0,22820000
+GKP1104,Rustampur,Residential Plot,2989,30,4.6,0,8300000
+GKP1105,Rapti Nagar,Residential Plot,3420,10,2.1,0,11130000
+GKP1106,Rapti Nagar,Residential Plot,921,60,6.1,0,3970000
+GKP1107,Sahjanwa,Agricultural Land,11637,18,10.4,0,6040000
+GKP1108,Betiahata,Residential Plot,766,10,3.1,0,3030000
+GKP1109,Medical College Road,Residential Plot,2512,10,11.1,0,6320000
+GKP1110,Transport Nagar,Residential Plot,1205,18,6.0,0,3020000
+GKP1111,Rapti Nagar,Agricultural Land,8542,18,9.5,0,9680000
+GKP1112,Golghar,Residential Plot,3359,18,10.2,0,16680000
+GKP1113,Medical College Road,Residential Plot,4881,15,7.4,0,12120000
+GKP1114,Transport Nagar,House,2220,20,5.2,1,6910000
+GKP1115,Mohaddipur,House,3412,10,6.4,20,16080000
+GKP1116,Sahjanwa,Agricultural Land,23297,60,9.9,0,16340000
+GKP1117,Betiahata,Residential Plot,4957,25,13.3,0,17550000
+GKP1118,Naushad,Residential Plot,4497,15,7.9,0,7800000
+GKP1119,Taramandal,Agricultural Land,6787,20,21.1,0,7780000
+GKP1120,Golghar,Commercial Property,4179,18,16.9,10,32460000
+GKP1121,Naushad,Residential Plot,3767,25,21.1,0,5480000
+GKP1122,Mohaddipur,Agricultural Land,7856,18,5.2,0,10100000
+GKP1123,Rapti Nagar,House,3291,15,13.8,26,9680000
+GKP1124,Betiahata,Commercial Property,2407,30,17.0,10,15740000
+GKP1125,Khorabar,Residential Plot,4963,15,2.9,0,10310000
+GKP1126,Rustampur,House,3186,20,1.3,22,10510000
+GKP1127,Kunraghat,Agricultural Land,18821,15,4.9,0,16280000
+GKP1128,Kunraghat,Residential Plot,2472,60,14.4,0,7160000
+GKP1129,Kunraghat,Residential Plot,2978,10,20.3,0,6100000
+GKP1130,Padri Bazar,Residential Plot,2044,40,19.1,0,4070000
+GKP1131,Betiahata,Residential Plot,2947,12,13.6,0,11570000
+GKP1132,Padri Bazar,Residential Plot,2526,25,16.6,0,4890000
+GKP1133,Padri Bazar,Residential Plot,2380,18,17.3,0,4840000
+GKP1134,Mohaddipur,Commercial Property,3430,15,8.1,6,18590000
+GKP1135,Betiahata,House,3567,15,2.5,26,16920000
+GKP1136,Padri Bazar,House,3171,12,20.2,23,7340000
+GKP1137,Gida,House,2871,60,20.5,24,7430000
+GKP1138,Khorabar,Residential Plot,2433,15,14.5,0,4060000
+GKP1139,Chargawan,Residential Plot,4102,60,19.6,0,9390000
+GKP1140,Rustampur,Commercial Property,2311,40,7.6,1,11060000
+GKP1141,Gida,Residential Plot,4987,25,14.7,0,9420000
+GKP1142,Golghar,Residential Plot,3838,30,5.5,0,23060000
+GKP1143,Rustampur,House,1423,40,5.0,27,4540000
+GKP1144,Taramandal,Residential Plot,4028,12,10.6,0,13010000
+GKP1145,Rapti Nagar,House,2145,40,10.7,12,9110000
+GKP1146,Transport Nagar,Residential Plot,1960,15,7.8,0,4610000
+GKP1147,Medical College Road,House,834,12,9.1,8,2690000
+GKP1148,Medical College Road,Commercial Property,2898,18,4.4,13,12080000
+GKP1149,Gida,Residential Plot,4200,10,8.0,0,6910000
+GKP1150,Padri Bazar,Commercial Property,1707,18,21.2,12,4760000
+GKP1151,Taramandal,Residential Plot,4925,18,11.3,0,15680000
+GKP1152,Taramandal,Agricultural Land,3164,12,21.0,0,3440000
+GKP1153,Betiahata,Agricultural Land,6961,25,8.5,0,10500000
+GKP1154,Chargawan,House,2872,30,2.9,11,8070000
+GKP1155,Gida,Agricultural Land,8513,30,3.7,0,7180000
+GKP1156,Rapti Nagar,Commercial Property,308,15,6.7,19,1440000
+GKP1157,Transport Nagar,Residential Plot,3837,20,10.4,0,7740000
+GKP1158,Taramandal,Commercial Property,3000,12,20.6,23,11860000
+GKP1159,Rapti Nagar,House,1288,12,2.3,13,5150000
+GKP1160,Betiahata,Residential Plot,1087,30,2.2,0,5140000
+GKP1161,Padri Bazar,Commercial Property,2478,60,3.0,3,13120000
+GKP1162,Gida,Residential Plot,3259,60,5.4,0,8410000
+GKP1163,Taramandal,Residential Plot,1164,10,13.0,0,3740000
+GKP1164,Sahjanwa,Residential Plot,989,10,8.4,0,1340000
+GKP1165,Taramandal,Agricultural Land,26864,30,4.0,0,34670000
+GKP1166,Naushad,Commercial Property,2654,60,6.0,8,9420000
+GKP1167,Betiahata,Commercial Property,1967,60,7.4,6,15280000
+GKP1168,Transport Nagar,Residential Plot,4336,12,11.6,0,8560000
+GKP1169,Sahjanwa,Agricultural Land,19903,20,4.5,0,11100000
+GKP1170,Kunraghat,Commercial Property,1047,20,12.3,15,3860000
+GKP1171,Medical College Road,Residential Plot,2170,10,21.6,0,4640000
+GKP1172,Gida,Residential Plot,1448,25,10.3,0,2560000
+GKP1173,Golghar,House,2190,10,20.2,20,11090000
+GKP1174,Khorabar,Residential Plot,1180,60,18.0,0,2780000
+GKP1175,Gida,House,3477,18,18.6,25,7080000
+GKP1176,Sahjanwa,House,1683,18,1.0,14,3670000
+GKP1177,Betiahata,House,2514,25,12.6,13,12050000
+GKP1178,Taramandal,House,3907,30,10.6,23,14390000
+GKP1179,Transport Nagar,Residential Plot,883,25,14.9,0,2200000
+GKP1180,Rapti Nagar,Residential Plot,3064,15,15.1,0,7400000
+GKP1181,Rustampur,Residential Plot,4690,25,4.7,0,13990000
+GKP1182,Medical College Road,Residential Plot,3312,25,4.3,0,8960000
+GKP1183,Golghar,Residential Plot,4469,40,11.5,0,27530000
+GKP1184,Taramandal,Residential Plot,619,12,21.6,0,1710000
+GKP1185,Rustampur,Commercial Property,4299,30,9.1,12,18090000
+GKP1186,Transport Nagar,Commercial Property,3670,60,12.9,11,16770000
+GKP1187,Golghar,House,2315,18,17.6,12,14160000
+GKP1188,Golghar,House,731,25,20.2,7,4610000
+GKP1189,Rapti Nagar,House,2596,20,2.4,30,9590000
+GKP1190,Sahjanwa,House,3705,25,2.2,13,7840000
+GKP1191,Golghar,Commercial Property,2317,10,15.9,15,15810000
+GKP1192,Naushad,House,2851,15,10.2,27,5470000
+GKP1193,Transport Nagar,Residential Plot,3265,25,7.5,0,8230000
+GKP1194,Sahjanwa,House,3758,40,16.4,0,9070000
+GKP1195,Betiahata,Residential Plot,3425,15,9.8,0,11660000
+GKP1196,Transport Nagar,Residential Plot,2451,40,15.0,0,5860000
+GKP1197,Medical College Road,Commercial Property,2604,12,9.2,1,12920000
+GKP1198,Golghar,Commercial Property,546,15,5.8,9,4610000
+GKP1199,Betiahata,Residential Plot,4961,18,4.8,0,21340000
+GKP1200,Medical College Road,House,2168,18,7.1,5,7580000
