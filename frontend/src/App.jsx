@@ -14,9 +14,9 @@ import Properties from "./pages/Properties";
 import PropertyDetails from "./pages/PropertyDetails";
 import SellProperty from "./pages/SellProperty";
 import Contact from "./pages/Contact";
-import Admin from "./pages/Admin";
+
 import AdminDashboard from "./pages/AdminDashboard";
-import AdminLogin from "./pages/AdminLogin";
+
 import AIChatbot from "./components/AIChatbot";
 import PricePredictor from "./pages/PricePredictor";
 import FindProperty from "./pages/FindProperty";
