@@ -27,23 +27,57 @@ function AdminLogin() {
       setLoading(true);
       setError("");
 
+      // Production me Vercel environment variable use hoga
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        `${import.meta.env.VITE_API_URL}/auth/login`,
         form
       );
 
+      // JWT token save
       localStorage.setItem(
         "adminToken",
         response.data.token
       );
 
+      // Admin information bhi save karo
+      if (response.data.admin) {
+        localStorage.setItem(
+          "admin",
+          JSON.stringify(response.data.admin)
+        );
+      }
+
       navigate("/admin/dashboard");
 
     } catch (error) {
-      setError(
-        error.response?.data?.message ||
-        "Login failed"
+      console.error(
+        "Admin Login Error:",
+        error.response?.data || error.message
       );
+
+      if (!error.response) {
+        setError(
+          "Server se connect nahi ho pa raha. Please try again."
+        );
+      } else if (error.response.status === 401) {
+        setError(
+          "Invalid email or password."
+        );
+      } else if (error.response.status === 429) {
+        setError(
+          "Too many login attempts. Please try again later."
+        );
+      } else if (error.response.status === 403) {
+        setError(
+          "Access denied."
+        );
+      } else {
+        setError(
+          error.response?.data?.message ||
+          "Login failed. Please try again."
+        );
+      }
+
     } finally {
       setLoading(false);
     }
@@ -81,6 +115,7 @@ function AdminLogin() {
             value={form.email}
             onChange={handleChange}
             placeholder="Enter admin email"
+            autoComplete="email"
             required
           />
 
@@ -92,11 +127,17 @@ function AdminLogin() {
             value={form.password}
             onChange={handleChange}
             placeholder="Enter password"
+            autoComplete="current-password"
             required
           />
 
-          <button type="submit" disabled={loading}>
-            {loading ? "Logging in..." : "Login"}
+          <button
+            type="submit"
+            disabled={loading}
+          >
+            {loading
+              ? "Logging in..."
+              : "Login"}
           </button>
 
         </form>
