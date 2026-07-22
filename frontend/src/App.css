@@ -3412,7 +3412,7 @@ img {
 
 .ai-chat-button {
   right: 24px;
-  bottom: 110px; /* WhatsApp ke upar */
+  bottom: 90px; /* WhatsApp ke upar */
 }
 
 .ai-chatbox {
@@ -3447,4 +3447,9 @@ img {
     width: auto;
     height: min(480px, calc(100dvh - 185px));
   }
+}
+
+.ai-chat-button {
+    right: 24px;
+    bottom: 110px;
 }
