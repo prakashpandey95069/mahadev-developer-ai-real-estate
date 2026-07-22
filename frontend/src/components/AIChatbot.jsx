@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import axios from "axios";
 
 function AIChatbot() {
   const [isOpen, setIsOpen] = useState(false);
-
   const [messages, setMessages] = useState([
     {
       role: "assistant",
@@ -14,10 +13,19 @@ function AIChatbot() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const sendMessage = async () => {
-    if (!input.trim() || loading) return;
+  const messagesEndRef = useRef(null);
 
+  // Automatically scroll to latest message
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  }, [messages, loading]);
+
+  const sendMessage = async () => {
     const userMessage = input.trim();
+
+    if (!userMessage || loading) return;
 
     setMessages((previous) => [
       ...previous,
@@ -32,7 +40,7 @@ function AIChatbot() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/ai/chat",
+        `${import.meta.env.VITE_API_URL}/ai/chat`,
         {
           message: userMessage,
         }
@@ -42,12 +50,16 @@ function AIChatbot() {
         ...previous,
         {
           role: "assistant",
-          text: response.data.reply,
+          text:
+            response.data.reply ||
+            "Sorry, mujhe response nahi mila.",
         },
       ]);
-
     } catch (error) {
-      console.error(error);
+      console.error(
+        "AI Chat Error:",
+        error.response?.data || error.message
+      );
 
       setMessages((previous) => [
         ...previous,
@@ -56,51 +68,58 @@ function AIChatbot() {
           text: "Sorry, AI assistant abhi available nahi hai. Aap 9935926414 par contact kar sakte hain.",
         },
       ]);
-
     } finally {
       setLoading(false);
     }
   };
 
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
       sendMessage();
     }
   };
 
   return (
-    <>
-      <button
-        className="ai-chat-button"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        {isOpen ? "×" : "AI"}
-      </button>
-
+    <div className="ai-chat-wrapper">
+      {/* Chat Box */}
       {isOpen && (
         <div className="ai-chatbox">
-
+          {/* Header */}
           <div className="ai-chat-header">
-            <div>
-              <h3>AI Property Assistant</h3>
-              <span>Mahadev Developer</span>
+            <div className="ai-chat-title">
+              <div className="ai-avatar">
+                AI
+              </div>
+
+              <div>
+                <h3>AI Property Assistant</h3>
+                <span>
+                  ● Online • Mahadev Developer
+                </span>
+              </div>
             </div>
 
-            <button onClick={() => setIsOpen(false)}>
+            <button
+              type="button"
+              className="ai-close-button"
+              onClick={() => setIsOpen(false)}
+              aria-label="Close AI chat"
+            >
               ×
             </button>
           </div>
 
+          {/* Messages */}
           <div className="ai-chat-messages">
-
             {messages.map((message, index) => (
               <div
                 key={index}
-                className={
+                className={`ai-message ${
                   message.role === "user"
-                    ? "ai-message user-message"
-                    : "ai-message bot-message"
-                }
+                    ? "user-message"
+                    : "bot-message"
+                }`}
               >
                 {message.text}
               </div>
@@ -108,34 +127,57 @@ function AIChatbot() {
 
             {loading && (
               <div className="ai-message bot-message">
-                Thinking...
+                <div className="typing-indicator">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
               </div>
             )}
 
+            <div ref={messagesEndRef} />
           </div>
 
+          {/* Input */}
           <div className="ai-chat-input">
-
             <input
               type="text"
               placeholder="Ask about properties..."
               value={input}
-              onChange={(e) => setInput(e.target.value)}
+              onChange={(event) =>
+                setInput(event.target.value)
+              }
               onKeyDown={handleKeyDown}
+              disabled={loading}
             />
 
             <button
+              type="button"
               onClick={sendMessage}
-              disabled={loading}
+              disabled={
+                loading || !input.trim()
+              }
             >
-              Send
+              ➤
             </button>
-
           </div>
-
         </div>
       )}
-    </>
+
+      {/* Floating Button */}
+      <button
+        type="button"
+        className={`ai-chat-button ${
+          isOpen ? "chat-open" : ""
+        }`}
+        onClick={() =>
+          setIsOpen((previous) => !previous)
+        }
+        aria-label="Open AI Property Assistant"
+      >
+        {isOpen ? "×" : "AI"}
+      </button>
+    </div>
   );
 }
 
