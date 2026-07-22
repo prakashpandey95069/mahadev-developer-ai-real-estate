@@ -2,7 +2,6 @@ import { useState } from "react";
 import axios from "axios";
 
 function PricePredictor() {
-
   const [form, setForm] = useState({
     location: "",
     property_type: "",
@@ -13,74 +12,158 @@ function PricePredictor() {
   });
 
   const [result, setResult] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const [loading, setLoading] =
-    useState(false);
-
-  const [error, setError] =
-    useState("");
-
+  // ==========================================
+  // HANDLE INPUT CHANGE
+  // ==========================================
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
 
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
-    });
+    setForm((previous) => ({
+      ...previous,
+      [name]: value,
+    }));
 
+    // Old error/result clear
+    setError("");
   };
 
+  // ==========================================
+  // SUBMIT PREDICTION FORM
+  // ==========================================
 
   const handleSubmit = async (e) => {
-
     e.preventDefault();
 
     try {
-
       setLoading(true);
-
       setError("");
-
       setResult(null);
 
+      // Check ML API URL
+      const mlApiUrl =
+        import.meta.env.VITE_ML_API_URL;
 
-      const response = await axios.post(
+      if (!mlApiUrl) {
+        throw new Error(
+          "VITE_ML_API_URL is not configured."
+        );
+      }
 
-        "http://localhost:5001/predict",
+      // Backend ke expected format me data
+      const predictionData = {
+        location: form.location,
 
-        form
+        property_type:
+          form.property_type,
 
+        area_sqft:
+          Number(form.area_sqft),
+
+        road_width_ft:
+          Number(form.road_width_ft),
+
+        distance_from_city_center_km:
+          Number(
+            form.distance_from_city_center_km
+          ),
+
+        property_age_years:
+          Number(form.property_age_years),
+      };
+
+      console.log(
+        "Prediction Request:",
+        predictionData
       );
 
+      // Production ML API request
+      const response = await axios.post(
+        `${mlApiUrl}/predict`,
+        predictionData,
+        {
+          headers: {
+            "Content-Type":
+              "application/json",
+          },
+
+          timeout: 60000,
+        }
+      );
+
+      console.log(
+        "Prediction Response:",
+        response.data
+      );
+
+      // Response validation
+      if (
+        !response.data ||
+        response.data.success !== true
+      ) {
+        throw new Error(
+          response.data?.message ||
+            "Invalid prediction response."
+        );
+      }
 
       setResult(response.data);
 
-
     } catch (error) {
-
       console.error(
         "Prediction Error:",
-        error
+        error.response?.data ||
+          error.message
       );
 
-      setError(
-        "Price prediction failed. Please try again."
-      );
+      // Backend error
+      if (error.response) {
+        setError(
+          error.response.data?.message ||
+            "ML service returned an error."
+        );
+      }
+
+      // Request timeout
+      else if (
+        error.code === "ECONNABORTED"
+      ) {
+        setError(
+          "ML service is taking too long to respond. Please try again."
+        );
+      }
+
+      // Environment variable missing
+      else if (
+        error.message ===
+        "VITE_ML_API_URL is not configured."
+      ) {
+        setError(
+          "ML service URL is not configured."
+        );
+      }
+
+      // Network / other error
+      else {
+        setError(
+          "Unable to connect to ML service. Please try again."
+        );
+      }
 
     } finally {
-
       setLoading(false);
-
     }
-
   };
 
-
   return (
-
     <div className="predictor-page">
 
       <div className="predictor-container">
+
+        {/* Heading */}
 
         <p className="section-label">
           AI PROPERTY VALUATION
@@ -91,18 +174,19 @@ function PricePredictor() {
         </h1>
 
         <p className="predictor-description">
-
           Enter your property details to get
           an AI-based estimated property price.
-
         </p>
 
+
+        {/* Prediction Form */}
 
         <form
           className="predictor-form"
           onSubmit={handleSubmit}
         >
 
+          {/* Location */}
 
           <select
             name="location"
@@ -110,7 +194,6 @@ function PricePredictor() {
             onChange={handleChange}
             required
           >
-
             <option value="">
               Select Location
             </option>
@@ -174,9 +257,10 @@ function PricePredictor() {
             <option value="Transport Nagar">
               Transport Nagar
             </option>
-
           </select>
 
+
+          {/* Property Type */}
 
           <select
             name="property_type"
@@ -184,7 +268,6 @@ function PricePredictor() {
             onChange={handleChange}
             required
           >
-
             <option value="">
               Select Property Type
             </option>
@@ -204,9 +287,10 @@ function PricePredictor() {
             <option value="Agricultural Land">
               Agricultural Land
             </option>
-
           </select>
 
+
+          {/* Area */}
 
           <input
             type="number"
@@ -215,9 +299,12 @@ function PricePredictor() {
             value={form.area_sqft}
             onChange={handleChange}
             min="1"
+            step="1"
             required
           />
 
+
+          {/* Road Width */}
 
           <input
             type="number"
@@ -226,13 +313,15 @@ function PricePredictor() {
             value={form.road_width_ft}
             onChange={handleChange}
             min="1"
+            step="0.1"
             required
           />
 
 
+          {/* Distance */}
+
           <input
             type="number"
-            step="0.1"
             name="distance_from_city_center_km"
             placeholder="Distance from City Center (KM)"
             value={
@@ -240,111 +329,164 @@ function PricePredictor() {
             }
             onChange={handleChange}
             min="0"
+            step="0.1"
             required
           />
 
+
+          {/* Property Age */}
 
           <input
             type="number"
             name="property_age_years"
-            placeholder="Property Age"
-            value={form.property_age_years}
+            placeholder="Property Age in Years"
+            value={
+              form.property_age_years
+            }
             onChange={handleChange}
             min="0"
+            step="1"
             required
           />
 
+
+          {/* Submit Button */}
 
           <button
             type="submit"
             disabled={loading}
           >
-
             {loading
               ? "Predicting..."
               : "Predict Property Price"}
-
           </button>
 
         </form>
 
 
+        {/* Error Message */}
+
         {error && (
-
           <div className="prediction-error">
-
             {error}
-
           </div>
-
         )}
 
 
+        {/* Prediction Result */}
+
         {result && (
-  <div className="prediction-result">
-    <div className="result-badge">
-      ML PRICE ESTIMATE
-    </div>
+          <div className="prediction-result">
 
-    <p className="result-label">
-      Estimated Property Value
-    </p>
+            <div className="result-badge">
+              ML PRICE ESTIMATE
+            </div>
 
-    <h2>
-      ₹{Number(result.predicted_price).toLocaleString("en-IN")}
-    </h2>
+            <p className="result-label">
+              Estimated Property Value
+            </p>
 
-    <h3>
-      ₹{result.predicted_price_lakh} Lakh
-    </h3>
+            <h2>
+              ₹
+              {Number(
+                result.predicted_price
+              ).toLocaleString(
+                "en-IN",
+                {
+                  maximumFractionDigits: 0,
+                }
+              )}
+            </h2>
 
-    <div className="price-range">
-      <span>Estimated Market Range</span>
+            <h3>
+              ₹
+              {Number(
+                result.predicted_price_lakh
+              ).toFixed(2)}{" "}
+              Lakh
+            </h3>
 
-      <strong>
-        ₹{(
-          result.predicted_price_lakh * 0.9
-        ).toFixed(2)}{" "}
-        Lakh
-        {" - "}
-        ₹{(
-          result.predicted_price_lakh * 1.1
-        ).toFixed(2)}{" "}
-        Lakh
-      </strong>
-    </div>
 
-    <div className="result-details">
-      <div>
-        <span>Location</span>
-        <strong>{form.location}</strong>
+            {/* Price Range */}
+
+            <div className="price-range">
+
+              <span>
+                Estimated Market Range
+              </span>
+
+              <strong>
+                ₹
+                {(
+                  Number(
+                    result.predicted_price_lakh
+                  ) * 0.9
+                ).toFixed(2)}{" "}
+                Lakh
+                {" - "}
+                ₹
+                {(
+                  Number(
+                    result.predicted_price_lakh
+                  ) * 1.1
+                ).toFixed(2)}{" "}
+                Lakh
+              </strong>
+
+            </div>
+
+
+            {/* Property Details */}
+
+            <div className="result-details">
+
+              <div>
+                <span>Location</span>
+
+                <strong>
+                  {form.location}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>
+                  Property Type
+                </span>
+
+                <strong>
+                  {form.property_type}
+                </strong>
+              </div>
+
+
+              <div>
+                <span>Area</span>
+
+                <strong>
+                  {form.area_sqft} Sq. Ft.
+                </strong>
+              </div>
+
+            </div>
+
+
+            {/* Disclaimer */}
+
+            <p className="prediction-note">
+              This estimate is generated by
+              a machine learning model trained
+              on synthetic data and is not an
+              official property valuation.
+            </p>
+
+          </div>
+        )}
+
       </div>
 
-      <div>
-        <span>Property Type</span>
-        <strong>{form.property_type}</strong>
-      </div>
-
-      <div>
-        <span>Area</span>
-        <strong>{form.area_sqft} Sq. Ft.</strong>
-      </div>
     </div>
-
-    <p className="prediction-note">
-      This estimate is generated by a machine learning model
-      trained on synthetic data and is not an official property
-      valuation.
-    </p>
-  </div>
-)}
-
-      </div>
-
-    </div>
-
   );
-
 }
 
 export default PricePredictor;
