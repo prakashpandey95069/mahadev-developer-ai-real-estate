@@ -2899,9 +2899,8 @@ img {
   }
 }
 
-
 /* =========================================
-   AI CHATBOT
+   AI CHATBOT WRAPPER
 ========================================= */
 
 .ai-chat-wrapper {
@@ -2911,12 +2910,17 @@ img {
   z-index: 9999;
 }
 
-/* Floating AI Button */
+
+/* =========================================
+   FLOATING AI BUTTON
+   WhatsApp button ke upar
+========================================= */
 
 .ai-chat-button {
   position: fixed;
+
   right: 24px;
-  bottom: 24px;
+  bottom: 120px;
 
   width: 64px;
   height: 64px;
@@ -2938,7 +2942,9 @@ img {
 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 
-  transition: 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
 
   z-index: 10001;
 }
@@ -2963,13 +2969,20 @@ img {
   position: fixed;
 
   right: 24px;
-  bottom: 100px;
+  bottom: 200px;
 
   width: min(380px, calc(100vw - 48px));
-  height: min(550px, calc(100vh - 140px));
+
+  height: min(
+    550px,
+    calc(100dvh - 230px)
+  );
+
+  min-height: 350px;
 
   background: #ffffff;
 
+  border: 1px solid #e5e7eb;
   border-radius: 18px;
 
   overflow: hidden;
@@ -2979,8 +2992,6 @@ img {
 
   box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.25);
-
-  border: 1px solid #e5e7eb;
 
   z-index: 10000;
 
@@ -3016,6 +3027,8 @@ img {
   align-items: center;
   justify-content: space-between;
 
+  gap: 12px;
+
   flex-shrink: 0;
 }
 
@@ -3023,11 +3036,15 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+
+  min-width: 0;
 }
 
 .ai-avatar {
   width: 42px;
   height: 42px;
+
+  flex-shrink: 0;
 
   border-radius: 50%;
 
@@ -3040,32 +3057,34 @@ img {
 
   font-size: 14px;
   font-weight: 800;
-
-  flex-shrink: 0;
 }
 
 .ai-chat-title h3 {
   margin: 0;
 
+  color: #ffffff;
+
   font-size: 16px;
   font-weight: 700;
 
-  color: #ffffff;
+  line-height: 1.2;
 }
 
 .ai-chat-title span {
   display: block;
 
-  margin-top: 3px;
-
-  font-size: 11px;
+  margin-top: 4px;
 
   color: #dbe7f5;
+
+  font-size: 11px;
 }
 
 .ai-close-button {
   width: 34px;
   height: 34px;
+
+  flex-shrink: 0;
 
   border: none;
   border-radius: 50%;
@@ -3081,7 +3100,7 @@ img {
   align-items: center;
   justify-content: center;
 
-  transition: 0.2s ease;
+  transition: background 0.2s ease;
 }
 
 .ai-close-button:hover {
@@ -3095,6 +3114,8 @@ img {
 
 .ai-chat-messages {
   flex: 1;
+
+  min-height: 0;
 
   padding: 18px 14px;
 
@@ -3111,9 +3132,6 @@ img {
   scroll-behavior: smooth;
 }
 
-
-/* Scrollbar */
-
 .ai-chat-messages::-webkit-scrollbar {
   width: 5px;
 }
@@ -3129,7 +3147,7 @@ img {
 
 
 /* =========================================
-   MESSAGES
+   CHAT MESSAGES BUBBLE
 ========================================= */
 
 .ai-message {
@@ -3142,8 +3160,8 @@ img {
   font-size: 14px;
   line-height: 1.5;
 
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .bot-message {
@@ -3169,12 +3187,13 @@ img {
 
 
 /* =========================================
-   TYPING ANIMATION
+   TYPING INDICATOR
 ========================================= */
 
 .typing-indicator {
   display: flex;
   align-items: center;
+
   gap: 4px;
 
   padding: 4px;
@@ -3215,7 +3234,7 @@ img {
 
 
 /* =========================================
-   INPUT AREA
+   CHAT INPUT
 ========================================= */
 
 .ai-chat-input {
@@ -3237,7 +3256,6 @@ img {
   flex: 1;
 
   min-width: 0;
-
   height: 46px;
 
   padding: 0 15px;
@@ -3246,7 +3264,6 @@ img {
   border-radius: 24px;
 
   background: #f7f8fa;
-
   color: #1f2937;
 
   font-size: 14px;
@@ -3290,12 +3307,13 @@ img {
   align-items: center;
   justify-content: center;
 
-  transition: 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
 }
 
 .ai-chat-input button:hover:not(:disabled) {
   transform: scale(1.05);
-
   background: #c99420;
 }
 
@@ -3311,24 +3329,27 @@ img {
 
 @media (max-width: 768px) {
 
-  .ai-chatbox {
-    right: 16px;
-    bottom: 90px;
-
-    width: min(370px, calc(100vw - 32px));
-
-    height: min(
-      520px,
-      calc(100dvh - 120px)
-    );
-  }
-
   .ai-chat-button {
-    right: 16px;
-    bottom: 18px;
+    right: 18px;
+    bottom: 105px;
 
     width: 58px;
     height: 58px;
+  }
+
+  .ai-chatbox {
+    right: 16px;
+    bottom: 175px;
+
+    width: min(
+      370px,
+      calc(100vw - 32px)
+    );
+
+    height: min(
+      500px,
+      calc(100dvh - 200px)
+    );
   }
 }
 
@@ -3339,28 +3360,30 @@ img {
 
 @media (max-width: 480px) {
 
-  .ai-chatbox {
-    right: 10px;
-    left: 10px;
+  .ai-chat-button {
+    right: 16px;
+    bottom: 100px;
 
-    bottom: 82px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .ai-chatbox {
+    left: 10px;
+    right: 10px;
+
+    bottom: 170px;
 
     width: auto;
 
     height: min(
-      520px,
-      calc(100dvh - 105px)
+      470px,
+      calc(100dvh - 190px)
     );
 
+    min-height: 320px;
+
     border-radius: 16px;
-  }
-
-  .ai-chat-button {
-    right: 14px;
-    bottom: 14px;
-
-    width: 56px;
-    height: 56px;
   }
 
   .ai-chat-header {
@@ -3389,9 +3412,9 @@ img {
   .ai-message {
     max-width: 88%;
 
-    font-size: 13px;
-
     padding: 10px 12px;
+
+    font-size: 13px;
   }
 
   .ai-chat-input {
@@ -3410,46 +3433,32 @@ img {
   }
 }
 
+/* AI Chatbot circular button */
 .ai-chat-button {
-  right: 24px;
-  bottom: 90px; /* WhatsApp ke upar */
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 95px !important;
+  width: 56px !important;
+  height: 56px !important;
+  z-index: 10001 !important;
 }
 
+/* Chat window */
 .ai-chatbox {
-  right: 24px;
-  bottom: 185px; /* AI button ke upar */
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 165px !important;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .ai-chat-button {
-    right: 16px;
-    bottom: 100px;
+    right: 15px !important;
+    bottom: 90px !important;
   }
 
   .ai-chatbox {
-    right: 16px;
-    bottom: 170px;
-    width: min(370px, calc(100vw - 32px));
-    height: min(500px, calc(100dvh - 190px));
+    right: 10px !important;
+    bottom: 160px !important;
   }
-}
-
-@media (max-width: 480px) {
-  .ai-chat-button {
-    right: 14px;
-    bottom: 95px;
-  }
-
-  .ai-chatbox {
-    left: 10px;
-    right: 10px;
-    bottom: 165px;
-    width: auto;
-    height: min(480px, calc(100dvh - 185px));
-  }
-}
-
-.ai-chat-button {
-    right: 24px;
-    bottom: 110px;
 }
