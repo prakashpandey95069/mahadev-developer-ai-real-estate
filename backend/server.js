@@ -40,42 +40,47 @@ app.use(helmet());
 // ==========================================
 
 const allowedOrigins = [
-  process.env.FRONTEND_URL,
   "http://localhost:5173",
+  "https://mahadev-developer-ai-real-estate.vercel.app",
+  process.env.FRONTEND_URL,
 ].filter(Boolean);
 
-app.use(
-  cors({
-    origin: (origin, callback) => {
-      // Allow requests without browser origin,
-      // for example Thunder Client.
-      if (!origin) {
-        return callback(null, true);
-      }
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Thunder Client, Postman etc.
+    if (!origin) {
+      return callback(null, true);
+    }
 
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
 
-      return callback(
-        new Error("Not allowed by CORS")
-      );
-    },
+    console.log("Blocked CORS Origin:", origin);
 
-    methods: [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE",
-    ],
+    return callback(
+      new Error("Not allowed by CORS")
+    );
+  },
 
-    allowedHeaders: [
-      "Content-Type",
-      "Authorization",
-    ],
-  })
-);
+  methods: [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE",
+    "OPTIONS",
+  ],
+
+  allowedHeaders: [
+    "Content-Type",
+    "Authorization",
+  ],
+
+  optionsSuccessStatus: 204,
+};
+
+app.use(cors(corsOptions));
 
 // ==========================================
 // REQUEST BODY LIMIT
