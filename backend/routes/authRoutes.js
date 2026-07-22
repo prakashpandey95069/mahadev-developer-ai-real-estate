@@ -7,11 +7,10 @@ const {
 
 const router = express.Router();
 
-// TEMPORARY - admin create karne ke baad remove karna hai
+// TEMPORARY: first production admin create karne ke liye
 router.post("/register", registerAdmin);
 
+// Admin login
 router.post("/login", adminLogin);
-
-
 
 module.exports = router;
