@@ -13,31 +13,30 @@ const protectAdmin = require(
 const router = express.Router();
 
 // ==========================================
-// PUBLIC ROUTE
-// Customer apni property requirement submit karega
+// PUBLIC ROUTES
 // ==========================================
 
+// Customer apni property requirement submit karega
 router.post(
   "/",
   addBuyerRequirement
+);
+
+// Customer apni matching properties dekh sakta hai
+router.get(
+  "/:id/matches",
+  findMatches
 );
 
 // ==========================================
 // ADMIN PROTECTED ROUTES
 // ==========================================
 
-// Get all buyer requirements
+// Sirf admin sabhi buyer requirements dekh sakta hai
 router.get(
   "/",
   protectAdmin,
   getBuyers
-);
-
-// Find property matches for a specific buyer
-router.get(
-  "/:id/matches",
-  protectAdmin,
-  findMatches
 );
 
 module.exports = router;
