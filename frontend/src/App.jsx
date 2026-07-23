@@ -4,6 +4,7 @@ import {
   Route,
   Link,
   useLocation,
+  Navigate,
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -14,27 +15,33 @@ import Properties from "./pages/Properties";
 import PropertyDetails from "./pages/PropertyDetails";
 import SellProperty from "./pages/SellProperty";
 import Contact from "./pages/Contact";
-
 import AdminDashboard from "./pages/AdminDashboard";
 
-import AIChatbot from "./components/AIChatbot";
 import PricePredictor from "./pages/PricePredictor";
 import FindProperty from "./pages/FindProperty";
 import PropertyMap from "./pages/PropertyMap";
+
+import AIChatbot from "./components/AIChatbot";
 
 import "./App.css";
 
 function AppContent() {
   const location = useLocation();
 
-  // Sirf Home Page par AI tools show honge
-  const isHomePage = location.pathname === "/";
+  // Admin pages check
+  const isAdminPage =
+    location.pathname.startsWith("/admin");
+
+  // AI tools sirf Home page par
+  const isHomePage =
+    location.pathname === "/";
 
   return (
     <>
-      <Navbar />
+      {/* Admin dashboard par normal website navbar nahi dikhega */}
+      {!isAdminPage && <Navbar />}
 
-      {/* Sirf Home Page */}
+      {/* AI tools sirf Home page par */}
       {isHomePage && (
         <>
           <AIChatbot />
@@ -56,6 +63,11 @@ function AppContent() {
       )}
 
       <Routes>
+
+        {/* ===============================
+            PUBLIC ROUTES
+        =============================== */}
+
         <Route
           path="/"
           element={<Home />}
@@ -96,19 +108,17 @@ function AppContent() {
           element={<FindProperty />}
         />
 
-        <Route
-          path="/admin/login"
-          element={<AdminLogin />}
-        />
 
-        <Route
-          path="/admin"
-          element={
-            <ProtectedRoute>
-              <Admin />
-            </ProtectedRoute>
-          }
-        />
+        {/* ===============================
+            ADMIN LOGIN
+        =============================== */}
+
+        
+
+
+        {/* ===============================
+            ADMIN DASHBOARD
+        =============================== */}
 
         <Route
           path="/admin/dashboard"
@@ -118,6 +128,33 @@ function AppContent() {
             </ProtectedRoute>
           }
         />
+
+
+       
+
+        <Route
+          path="/admin"
+          element={
+            <Navigate
+              to="/admin/dashboard"
+              replace
+            />
+          }
+        />
+
+
+       
+
+        <Route
+          path="*"
+          element={
+            <Navigate
+              to="/"
+              replace
+            />
+          }
+        />
+
       </Routes>
     </>
   );
