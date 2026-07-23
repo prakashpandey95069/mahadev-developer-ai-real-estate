@@ -17,6 +17,7 @@ import SellProperty from "./pages/SellProperty";
 import Contact from "./pages/Contact";
 import AdminDashboard from "./pages/AdminDashboard";
 
+import AdminLogin from "./pages/AdminLogin";
 import PricePredictor from "./pages/PricePredictor";
 import FindProperty from "./pages/FindProperty";
 import PropertyMap from "./pages/PropertyMap";
@@ -72,6 +73,19 @@ function AppContent() {
           path="/"
           element={<Home />}
         />
+        <Route
+  path="/admin/dashboard"
+  element={
+    <ProtectedRoute>
+      <AdminDashboard />
+    </ProtectedRoute>
+  }
+/>
+
+<Route
+  path="/admin/login"
+  element={<AdminLogin />}
+/>
 
         <Route
           path="/properties"
