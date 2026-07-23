@@ -6,7 +6,10 @@ const cors = require("cors");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 
-// Routes
+// ==========================================
+// ROUTES
+// ==========================================
+
 const buyerRoutes = require("./routes/buyerRoutes");
 const recommendationRoutes = require(
   "./routes/recommendationRoutes"
@@ -40,23 +43,33 @@ app.use(helmet());
 // ==========================================
 
 const allowedOrigins = [
+  // Local frontend
   "http://localhost:5173",
-  "https://mahadev-developer-ai-real-estate.vercel.app",
+
+  // Production frontend
+  "https://mahadev-developer.vercel.app",
+
+  // Render environment variable
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
 const corsOptions = {
   origin: (origin, callback) => {
-    // Thunder Client, Postman etc.
+    // Allow requests without origin
+    // Example: Postman, Thunder Client
     if (!origin) {
       return callback(null, true);
     }
 
+    // Allow configured frontend URLs
     if (allowedOrigins.includes(origin)) {
       return callback(null, true);
     }
 
-    console.log("Blocked CORS Origin:", origin);
+    console.log(
+      "Blocked CORS Origin:",
+      origin
+    );
 
     return callback(
       new Error("Not allowed by CORS")
@@ -77,13 +90,16 @@ const corsOptions = {
     "Authorization",
   ],
 
+  credentials: true,
+
   optionsSuccessStatus: 204,
 };
 
+// Enable CORS
 app.use(cors(corsOptions));
 
 // ==========================================
-// REQUEST BODY LIMIT
+// REQUEST BODY
 // ==========================================
 
 app.use(
@@ -119,10 +135,13 @@ const apiLimiter = rateLimit({
   },
 });
 
-app.use("/api", apiLimiter);
+app.use(
+  "/api",
+  apiLimiter
+);
 
 // ==========================================
-// STRICT LOGIN RATE LIMIT
+// LOGIN RATE LIMIT
 // ==========================================
 
 const loginLimiter = rateLimit({
@@ -147,7 +166,7 @@ app.use(
 );
 
 // ==========================================
-// HEALTH CHECK
+// HEALTH CHECK ROUTES
 // ==========================================
 
 app.get("/", (req, res) => {
@@ -158,47 +177,57 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/api/health", (req, res) => {
-  res.status(200).json({
-    success: true,
-    status: "healthy",
-  });
-});
+app.get(
+  "/api/health",
+  (req, res) => {
+    res.status(200).json({
+      success: true,
+      status: "healthy",
+    });
+  }
+);
 
 // ==========================================
 // API ROUTES
 // ==========================================
 
+// Recommendations
 app.use(
   "/api/recommendations",
   recommendationRoutes
 );
 
+// Authentication
 app.use(
   "/api/auth",
   authRoutes
 );
 
+// Properties
 app.use(
   "/api/properties",
   propertyRoutes
 );
 
+// Enquiries
 app.use(
   "/api/enquiries",
   enquiryRoutes
 );
 
+// AI Chatbot
 app.use(
   "/api/ai",
   aiRoutes
 );
 
+// Buyers
 app.use(
   "/api/buyers",
   buyerRoutes
 );
 
+// Notifications
 app.use(
   "/api/notifications",
   notificationRoutes
@@ -208,70 +237,83 @@ app.use(
 // 404 HANDLER
 // ==========================================
 
-app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    message: "API endpoint not found",
-  });
-});
+app.use(
+  (req, res) => {
+    res.status(404).json({
+      success: false,
+      message:
+        "API endpoint not found",
+    });
+  }
+);
 
 // ==========================================
 // GLOBAL ERROR HANDLER
 // ==========================================
 
-app.use((error, req, res, next) => {
-  console.error(
-    "Server Error:",
-    error.message
-  );
+app.use(
+  (error, req, res, next) => {
+    console.error(
+      "Server Error:",
+      error.message
+    );
 
-  // CORS error
-  if (
-    error.message ===
-    "Not allowed by CORS"
-  ) {
-    return res.status(403).json({
-      success: false,
-      message: "Origin not allowed",
-    });
+    // CORS error
+    if (
+      error.message ===
+      "Not allowed by CORS"
+    ) {
+      return res.status(403).json({
+        success: false,
+        message:
+          "Origin not allowed",
+      });
+    }
+
+    return res
+      .status(
+        error.status || 500
+      )
+      .json({
+        success: false,
+
+        message:
+          process.env.NODE_ENV ===
+          "production"
+            ? "Internal server error"
+            : error.message,
+      });
   }
-
-  res.status(
-    error.status || 500
-  ).json({
-    success: false,
-
-    message:
-      process.env.NODE_ENV ===
-      "production"
-        ? "Internal server error"
-        : error.message,
-  });
-});
+);
 
 // ==========================================
-// START SERVER
+// SERVER PORT
 // ==========================================
 
 const PORT =
   process.env.PORT || 5000;
 
+// ==========================================
+// START SERVER
+// ==========================================
+
 const startServer = async () => {
   try {
-    // Required environment variables
+    // Check MongoDB URL
     if (!process.env.MONGO_URI) {
       throw new Error(
         "MONGO_URI is missing"
       );
     }
 
+    // Check JWT Secret
     if (!process.env.JWT_SECRET) {
       throw new Error(
         "JWT_SECRET is missing"
       );
     }
 
-    // Connect database first
+    // Connect MongoDB
     await mongoose.connect(
       process.env.MONGO_URI
     );
@@ -280,13 +322,20 @@ const startServer = async () => {
       "MongoDB Connected"
     );
 
-    // Start server only after DB connection
-    app.listen(PORT, () => {
-      console.log(
-        `Server running on port ${PORT}`
-      );
-    });
+    // Start Express Server
+    app.listen(
+      PORT,
+      () => {
+        console.log(
+          `Server running on port ${PORT}`
+        );
 
+        console.log(
+          "Allowed CORS Origins:",
+          allowedOrigins
+        );
+      }
+    );
   } catch (error) {
     console.error(
       "Server Startup Error:",
@@ -297,4 +346,5 @@ const startServer = async () => {
   }
 };
 
+// Start application
 startServer();
